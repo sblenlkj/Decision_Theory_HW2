@@ -5,7 +5,9 @@
             "tutor": "Novikov",
             "countries": [
                 "Oceania",
-                "China"
+                "China",
+                "Solomon Islands",
+                "Kiribati"
             ],
             "topics": [
                 "infrastructure",
@@ -22,7 +24,8 @@
             "topics": [
                 "transport",
                 "integration",
-                "civil aviation"
+                "aviation",
+                "civilian purposes"
             ]
         },
         "3": {
@@ -60,7 +63,7 @@
             "topics": [
                 "cooperation",
                 "ecology",
-                "climate change",
+                "climate",
                 "policy"
             ]
         },
@@ -108,10 +111,10 @@
             "topic": "Evolution of the Russian Federation's approaches to the problem of reforming the UN Security Council from 1993 to 2023",
             "tutor": "Bordachev",
             "countries": [
-                "Russia"
+                "Russia",
+                "UN"
             ],
             "topics": [
-                "UN",
                 "reform"
             ]
         },
@@ -135,7 +138,6 @@
                 "EU"
             ],
             "topics": [
-                "EU",
                 "nuclear",
                 "energy",
                 "development",
@@ -163,7 +165,6 @@
                 "US"
             ],
             "topics": [
-                "national security policy",
                 "alliance",
                 "policy",
                 "security"
@@ -205,7 +206,7 @@
             ],
             "topics": [
                 "Green Transition Strategy",
-                "green",
+                "climate",
                 "policy"
             ]
         },
@@ -585,7 +586,7 @@
             "tutor": "Lukyanov",
             "countries": [
                 "US",
-                "Korea"
+                "South Korea"
             ],
             "topics": [
                 "cooperation",
@@ -597,7 +598,7 @@
             "tutor": "Novikov",
             "countries": [
                 "Indo-Pacific region",
-                "Korea"
+                "South Korea"
             ],
             "topics": [
                 "participation",
@@ -823,7 +824,7 @@
             "tutor": "Rosenthal",
             "countries": [
                 "Mexico",
-                "USA",
+                "US",
                 "Canada"
             ],
             "topics": [
@@ -1045,7 +1046,6 @@
                 "EU"
             ],
             "topics": [
-                "European policy",
                 "policy"
             ]
         },
@@ -1223,7 +1223,7 @@
         "96": {
             "topic": "Specifics of French cultural diplomacy during the presidency of E. Macron (2017-2023)",
             "tutor": "Novikov",
-            "countries": ["French"],
+            "countries": ["France"],
             "topics": [
                 "E. Macron",
                 "cultural",
