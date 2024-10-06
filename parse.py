@@ -24,14 +24,14 @@ class GetData:
         data.extend(self.extract_data(soup))
         last_page_number = self.get_last_page_number(soup)
         
-        # for i in range(2, last_page_number+1):
-        #     self.logger.info(f"page №{i}")
+        for i in range(2, last_page_number+1):
+            self.logger.info(f"page №{i}")
 
-        #     new_url = f"{url}&page={i}"
-        #     response = requests.get(new_url)
-        #     soup = BeautifulSoup(response.content, 'html.parser')
+            new_url = f"{url}&page={i}"
+            response = requests.get(new_url)
+            soup = BeautifulSoup(response.content, 'html.parser')
 
-        #     data.extend(self.extract_data(soup))
+            data.extend(self.extract_data(soup))
         
         self.save_to_file(data)
 

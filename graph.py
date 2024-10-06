@@ -33,30 +33,28 @@ class MyGraph:
         infile = open(f"{self.folder_path}{self.file_name}_united.json")
         dct = json.load(infile)
         
-        new_dct = defaultdict(list)
+        nodes_dct = defaultdict(list)
+        connections_lst = []
+        
         
         for v in dct["data"].values():
             nodes = []
-            new_dct["tutors"].append(v["tutor"])
+            nodes_dct["tutors"].append(v["tutor"])
             nodes.append(v["tutor"])
 
-            new_dct["countries"].extend(v["countries"])
+            nodes_dct["countries"].extend(v["countries"])
             nodes.extend(v["countries"])
 
-            new_dct["topics"].extend(v["topics"])
+            nodes_dct["topics"].extend(v["topics"])
             nodes.extend(v["topics"])
 
-            new_dct["connections"].extend([Connection(t[0], t[1]) for t in combinations(nodes, 2)])
+            connections_lst.extend([Connection(t[0], t[1]) for t in combinations(nodes, 2)])
         
-        for k, v in new_dct.items():
-            dct[k] = Counter(v)
-            
-            if k != "connections":
-
-                dct[k] = list(map(lambda x: {x[0]: x[1]}, sorted(dct[k].items())))
+        for k, v in nodes_dct.items():
+            nodes_dct[k] = list(map(lambda x: {x[0]: x[1]}, sorted(Counter(v).items())))
         
-
-        dct["connections"] = [{"times": v, "nodes": c.to_list()} for c, v in dct["connections"].items()]
+        dct["nodes"] = nodes_dct
+        dct["connections"] = [{"times": v, "nodes": c.to_list()} for c, v in Counter(connections_lst).items()]
 
         if to_save:
             outfile = open(f"{self.folder_path}{self.file_name}_final.json", "w")
