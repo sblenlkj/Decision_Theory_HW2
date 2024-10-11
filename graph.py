@@ -1,63 +1,90 @@
 import json
-import hashlib
-from collections import defaultdict, Counter
-from itertools import combinations
-
-class Connection:
-    def __init__(self, a, b):
-        self.a, self.b = sorted([a, b])
-    
-    def __repr__(self) -> str:
-        return f"Connection({self.a}, {self.b})"
-    
-    def __eq__(self, value: object) -> bool:
-        return self.a == value.a and self.b == value.b
-    
-    def __hash__(self) -> int:
-        return self.hash_function(self.b + self.a)
-    
-    def to_list(self) -> list:
-        return [self.a, self.b]
-    
-    def hash_function(self, s):
-        return int(hashlib.sha1(s.encode("utf-8")).hexdigest(), 16) % (10 ** 8)
-
+import pandas as pd
+import networkx as nx
+from pyvis.network import Network
 
 class MyGraph:
     folder_path = "data/"
 
     def __init__(self, file_name):
-        self.file_name = file_name
+        self.set_dct_from_json(file_name)
 
-    def process_final_json(self, to_save=False) -> dict:
-        infile = open(f"{self.folder_path}{self.file_name}_united.json")
-        dct = json.load(infile)
+        self.nodes_df = None
+        self.connections_df = None
         
-        nodes_dct = defaultdict(list)
-        connections_lst = []
+    def set_dct_from_json(self, file_name):
+        infile = open(f"{self.folder_path}{file_name}")
+        self.dct = json.load(infile)
         
+        self.nodes_lst = []
+        for nodes_type, types_data in self.dct["nodes"].items():
+            for (node_name, times) in types_data:
+                self.nodes_lst.append([node_name, times, nodes_type])
         
-        for v in dct["data"].values():
-            nodes = []
-            nodes_dct["tutors"].append(v["tutor"])
-            nodes.append(v["tutor"])
+        self.connections_lst = []
+        self.only_connections_lst = []
+        for connection_dct in self.dct["connections"]:
+            a, b = connection_dct["nodes"]
+            self.connections_lst.append([a, b, connection_dct["times"]])
+            self.only_connections_lst.append([a, b])
 
-            nodes_dct["countries"].extend(v["countries"])
-            nodes.extend(v["countries"])
+    def set_dfs(self):
+        columns_for_nodes_df = ["node", "times", "type"]
+        columns_for_connections_df = ["node1", "node2", "times"]
 
-            nodes_dct["topics"].extend(v["topics"])
-            nodes.extend(v["topics"])
+        self.nodes_df = pd.DataFrame(self.nodes_lst, columns=columns_for_nodes_df)
+        self.connections_df = pd.DataFrame(self.connections_lst, columns=columns_for_connections_df)
+    
+    def save_dfs(self):
+        self.nodes_df.to_csv(f"{self.folder_path}/nodes_df.csv", index=False)
+        self.connections_df.to_csv(f"{self.folder_path}/connections_df.csv", index=False)
+    
+    def set_graph(self, legend_flag=False, file_to_save=False):
+        g = nx.Graph(self.only_connections_lst)
+        net = Network()
 
-            connections_lst.extend([Connection(t[0], t[1]) for t in combinations(nodes, 2)])
+        nodes = [
+            (
+                node, 
+                {'group': node_type, 'label': node, 'size': 20}
+            )
+            for (node, times, node_type) in self.nodes_lst
+        ]
         
-        for k, v in nodes_dct.items():
-            nodes_dct[k] = list(map(lambda x: {x[0]: x[1]}, sorted(Counter(v).items())))
+        g.add_nodes_from(nodes)
+        if legend_flag:
+            g.add_nodes_from(self.create_legend())
         
-        dct["nodes"] = nodes_dct
-        dct["connections"] = [{"times": v, "nodes": c.to_list()} for c, v in Counter(connections_lst).items()]
+        net.from_nx(g)
+        net.toggle_physics(False)
 
-        if to_save:
-            outfile = open(f"{self.folder_path}{self.file_name}_final.json", "w")
-            json.dump(dct, outfile, indent=4)
-        
-        return dct
+        self.net, self.g = net, g
+
+        if file_to_save:
+            self.save_html_graph(file_to_save)
+
+    def save_html_graph(self, file_name):
+        self.net.show(f"{self.folder_path}{file_name}", notebook=False)
+
+    def create_legend(self):
+        step, x, y = 50, -300, -250
+        legend_nodes = [
+            (
+                level, 
+                {
+                    'group': level, 
+                    'label': f"{level} level",
+                    'size': 30, 
+                    'physics': False, 
+                    'x': x, 
+                    'y': f'{y + (level-1)*step}px',
+                    'shape': 'box', 
+                    'widthConstraint': 50, 
+                    'font': {'size': 20}
+                }
+            )
+            for level in range(1, 3)
+        ]
+        return legend_nodes
+
+# MyGraph("2024_final.json").set_graph(file_to_save="graph1.html")

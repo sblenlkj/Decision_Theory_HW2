@@ -1217,7 +1217,7 @@
             "tutor": "Grafova",
             "countries": [
                 "France",
-                "Russian Federation"
+                "Russia"
             ],
             "topics": [
                 "cultural",
@@ -1303,682 +1303,906 @@
     },
     "nodes": {
         "tutors": [
-            {
-                "Baklanov": 3
-            },
-            {
-                "Bartenev": 1
-            },
-            {
-                "Bass": 4
-            },
-            {
-                "Batyuk": 4
-            },
-            {
-                "Belous": 1
-            },
-            {
-                "Bordachev": 1
-            },
-            {
-                "Cats": 1
-            },
-            {
-                "Entina": 3
-            },
-            {
-                "Falconer": 1
-            },
-            {
-                "Frolov": 1
-            },
-            {
-                "Glaser": 2
-            },
-            {
-                "Grafova": 1
-            },
-            {
-                "Kanaev": 2
-            },
-            {
-                "Karneev": 1
-            },
-            {
-                "Karpova": 1
-            },
-            {
-                "Korneev": 2
-            },
-            {
-                "Kosevich": 2
-            },
-            {
-                "Krivushin": 1
-            },
-            {
-                "Kurdin": 1
-            },
-            {
-                "Kutyrev": 1
-            },
-            {
-                "Lukyanov": 5
-            },
-            {
-                "Maslova": 2
-            },
-            {
-                "Novikov": 28
-            },
-            {
-                "Paramonov": 1
-            },
-            {
-                "Puzyanova": 3
-            },
-            {
-                "Romanova": 1
-            },
-            {
-                "Rosenthal": 2
-            },
-            {
-                "Rozhkov": 1
-            },
-            {
-                "Scribe": 1
-            },
-            {
-                "Senyuk": 1
-            },
-            {
-                "Shcherbakova": 2
-            },
-            {
-                "Sherstyukov": 1
-            },
-            {
-                "Sizova": 1
-            },
-            {
-                "Training": 1
-            },
-            {
-                "Yashina": 4
-            },
-            {
-                "Yenikeev": 4
-            },
-            {
-                "Zakharov": 3
-            },
-            {
-                "Zinovieva": 3
-            },
-            {
-                "Zuev": 1
-            },
-            {
-                "Zvereva": 2
-            }
+            [
+                "Baklanov",
+                3
+            ],
+            [
+                "Bartenev",
+                1
+            ],
+            [
+                "Bass",
+                4
+            ],
+            [
+                "Batyuk",
+                4
+            ],
+            [
+                "Belous",
+                1
+            ],
+            [
+                "Bordachev",
+                1
+            ],
+            [
+                "Cats",
+                1
+            ],
+            [
+                "Entina",
+                3
+            ],
+            [
+                "Falconer",
+                1
+            ],
+            [
+                "Frolov",
+                1
+            ],
+            [
+                "Glaser",
+                2
+            ],
+            [
+                "Grafova",
+                1
+            ],
+            [
+                "Kanaev",
+                2
+            ],
+            [
+                "Karneev",
+                1
+            ],
+            [
+                "Karpova",
+                1
+            ],
+            [
+                "Korneev",
+                2
+            ],
+            [
+                "Kosevich",
+                2
+            ],
+            [
+                "Krivushin",
+                1
+            ],
+            [
+                "Kurdin",
+                1
+            ],
+            [
+                "Kutyrev",
+                1
+            ],
+            [
+                "Lukyanov",
+                5
+            ],
+            [
+                "Maslova",
+                2
+            ],
+            [
+                "Novikov",
+                28
+            ],
+            [
+                "Paramonov",
+                1
+            ],
+            [
+                "Puzyanova",
+                3
+            ],
+            [
+                "Romanova",
+                1
+            ],
+            [
+                "Rosenthal",
+                2
+            ],
+            [
+                "Rozhkov",
+                1
+            ],
+            [
+                "Scribe",
+                1
+            ],
+            [
+                "Senyuk",
+                1
+            ],
+            [
+                "Shcherbakova",
+                2
+            ],
+            [
+                "Sherstyukov",
+                1
+            ],
+            [
+                "Sizova",
+                1
+            ],
+            [
+                "Training",
+                1
+            ],
+            [
+                "Yashina",
+                4
+            ],
+            [
+                "Yenikeev",
+                4
+            ],
+            [
+                "Zakharov",
+                3
+            ],
+            [
+                "Zinovieva",
+                3
+            ],
+            [
+                "Zuev",
+                1
+            ],
+            [
+                "Zvereva",
+                2
+            ]
         ],
         "countries": [
-            {
-                "ASEAN": 4
-            },
-            {
-                "Afghanistan": 1
-            },
-            {
-                "Algeria": 1
-            },
-            {
-                "Argentina": 2
-            },
-            {
-                "Austria": 1
-            },
-            {
-                "BRICS": 2
-            },
-            {
-                "Belarus": 1
-            },
-            {
-                "Brazil": 4
-            },
-            {
-                "Canada": 1
-            },
-            {
-                "Caribbean": 1
-            },
-            {
-                "Central Asia": 2
-            },
-            {
-                "China": 10
-            },
-            {
-                "Colombia": 1
-            },
-            {
-                "C\u00f4te d'Ivoire": 1
-            },
-            {
-                "EU": 15
-            },
-            {
-                "East Asia": 1
-            },
-            {
-                "France": 12
-            },
-            {
-                "Germany": 9
-            },
-            {
-                "Hungary": 1
-            },
-            {
-                "India": 3
-            },
-            {
-                "Indo-Pacific region": 1
-            },
-            {
-                "Indonesia": 1
-            },
-            {
-                "Iran": 2
-            },
-            {
-                "Italy": 7
-            },
-            {
-                "Japan": 7
-            },
-            {
-                "Kazakhstan": 2
-            },
-            {
-                "Kiribati": 1
-            },
-            {
-                "Kyrgyzstan": 1
-            },
-            {
-                "Latin America": 2
-            },
-            {
-                "Mali": 1
-            },
-            {
-                "Mexico": 4
-            },
-            {
-                "Moldova": 2
-            },
-            {
-                "Morocco": 1
-            },
-            {
-                "NATO": 1
-            },
-            {
-                "New Zealand": 1
-            },
-            {
-                "Nigeria": 1
-            },
-            {
-                "North Africa": 1
-            },
-            {
-                "North Korea": 1
-            },
-            {
-                "Oceania": 2
-            },
-            {
-                "Philippines": 1
-            },
-            {
-                "Poland": 1
-            },
-            {
-                "Russia": 24
-            },
-            {
-                "Russian Federation": 1
-            },
-            {
-                "Sahel": 1
-            },
-            {
-                "Saudi Arabia": 4
-            },
-            {
-                "Serbia": 2
-            },
-            {
-                "Solomon Islands": 1
-            },
-            {
-                "South Korea": 3
-            },
-            {
-                "Spain": 5
-            },
-            {
-                "Sri Lanka": 1
-            },
-            {
-                "Syria": 2
-            },
-            {
-                "Tajikistan": 2
-            },
-            {
-                "Turkey": 2
-            },
-            {
-                "UK": 2
-            },
-            {
-                "UN": 4
-            },
-            {
-                "US": 20
-            },
-            {
-                "Ukraine": 4
-            },
-            {
-                "United Arab Emirates": 1
-            },
-            {
-                "Uzbekistan": 2
-            },
-            {
-                "Venezuela": 1
-            },
-            {
-                "Vietnam": 3
-            },
-            {
-                "West": 1
-            },
-            {
-                "Yemen": 1
-            }
+            [
+                "ASEAN",
+                4
+            ],
+            [
+                "Afghanistan",
+                1
+            ],
+            [
+                "Algeria",
+                1
+            ],
+            [
+                "Argentina",
+                2
+            ],
+            [
+                "Austria",
+                1
+            ],
+            [
+                "BRICS",
+                2
+            ],
+            [
+                "Belarus",
+                1
+            ],
+            [
+                "Brazil",
+                4
+            ],
+            [
+                "Canada",
+                1
+            ],
+            [
+                "Caribbean",
+                1
+            ],
+            [
+                "Central Asia",
+                2
+            ],
+            [
+                "China",
+                10
+            ],
+            [
+                "Colombia",
+                1
+            ],
+            [
+                "C\u00f4te d'Ivoire",
+                1
+            ],
+            [
+                "EU",
+                15
+            ],
+            [
+                "East Asia",
+                1
+            ],
+            [
+                "France",
+                12
+            ],
+            [
+                "Germany",
+                9
+            ],
+            [
+                "Hungary",
+                1
+            ],
+            [
+                "India",
+                3
+            ],
+            [
+                "Indo-Pacific region",
+                1
+            ],
+            [
+                "Indonesia",
+                1
+            ],
+            [
+                "Iran",
+                2
+            ],
+            [
+                "Italy",
+                7
+            ],
+            [
+                "Japan",
+                7
+            ],
+            [
+                "Kazakhstan",
+                2
+            ],
+            [
+                "Kiribati",
+                1
+            ],
+            [
+                "Kyrgyzstan",
+                1
+            ],
+            [
+                "Latin America",
+                2
+            ],
+            [
+                "Mali",
+                1
+            ],
+            [
+                "Mexico",
+                4
+            ],
+            [
+                "Moldova",
+                2
+            ],
+            [
+                "Morocco",
+                1
+            ],
+            [
+                "NATO",
+                1
+            ],
+            [
+                "New Zealand",
+                1
+            ],
+            [
+                "Nigeria",
+                1
+            ],
+            [
+                "North Africa",
+                1
+            ],
+            [
+                "North Korea",
+                1
+            ],
+            [
+                "Oceania",
+                2
+            ],
+            [
+                "Philippines",
+                1
+            ],
+            [
+                "Poland",
+                1
+            ],
+            [
+                "Russia",
+                24
+            ],
+            [
+                "Russian Federation",
+                1
+            ],
+            [
+                "Sahel",
+                1
+            ],
+            [
+                "Saudi Arabia",
+                4
+            ],
+            [
+                "Serbia",
+                2
+            ],
+            [
+                "Solomon Islands",
+                1
+            ],
+            [
+                "South Korea",
+                3
+            ],
+            [
+                "Spain",
+                5
+            ],
+            [
+                "Sri Lanka",
+                1
+            ],
+            [
+                "Syria",
+                2
+            ],
+            [
+                "Tajikistan",
+                2
+            ],
+            [
+                "Turkey",
+                2
+            ],
+            [
+                "UK",
+                2
+            ],
+            [
+                "UN",
+                4
+            ],
+            [
+                "US",
+                20
+            ],
+            [
+                "Ukraine",
+                4
+            ],
+            [
+                "United Arab Emirates",
+                1
+            ],
+            [
+                "Uzbekistan",
+                2
+            ],
+            [
+                "Venezuela",
+                1
+            ],
+            [
+                "Vietnam",
+                3
+            ],
+            [
+                "West",
+                1
+            ],
+            [
+                "Yemen",
+                1
+            ]
         ],
         "topics": [
-            {
-                "Adidas": 1
-            },
-            {
-                "Biden": 2
-            },
-            {
-                "Big Tech": 1
-            },
-            {
-                "Catalan separatist movement": 2
-            },
-            {
-                "E. Macron": 1
-            },
-            {
-                "EU migration policy": 3
-            },
-            {
-                "European security system": 1
-            },
-            {
-                "Green Transition Strategy": 1
-            },
-            {
-                "Indo-Pacific Initiative": 1
-            },
-            {
-                "Jair Bolsonaro": 1
-            },
-            {
-                "Kurdish separatist": 1
-            },
-            {
-                "Lula da Silva": 1
-            },
-            {
-                "Neighbourhood First Policy": 1
-            },
-            {
-                "Neutrality Policy": 1
-            },
-            {
-                "Nike": 1
-            },
-            {
-                "Official development assistance": 1
-            },
-            {
-                "Operation Barkhane": 1
-            },
-            {
-                "Paris": 1
-            },
-            {
-                "Rome": 1
-            },
-            {
-                "Russia": 1
-            },
-            {
-                "South China Sea": 1
-            },
-            {
-                "Sustainable Development": 1
-            },
-            {
-                "Syrian Crisis": 1
-            },
-            {
-                "Taiwan factor": 1
-            },
-            {
-                "Transnistrian Problem": 1
-            },
-            {
-                "Trump": 1
-            },
-            {
-                "Ukrainian crisis": 4
-            },
-            {
-                "Yemen Conflict": 1
-            },
-            {
-                "agenda": 2
-            },
-            {
-                "alliance": 1
-            },
-            {
-                "analytical centers": 1
-            },
-            {
-                "approach": 6
-            },
-            {
-                "aviation": 1
-            },
-            {
-                "balance": 1
-            },
-            {
-                "border": 2
-            },
-            {
-                "city": 1
-            },
-            {
-                "civilian purposes": 2
-            },
-            {
-                "climate": 3
-            },
-            {
-                "confrontation": 2
-            },
-            {
-                "cooperation": 7
-            },
-            {
-                "crisis": 5
-            },
-            {
-                "cultural": 4
-            },
-            {
-                "degradation": 1
-            },
-            {
-                "development": 2
-            },
-            {
-                "diaspora": 1
-            },
-            {
-                "digital": 3
-            },
-            {
-                "digital economy": 1
-            },
-            {
-                "digital silk road": 1
-            },
-            {
-                "diplomacy": 10
-            },
-            {
-                "discourse": 3
-            },
-            {
-                "domestic": 1
-            },
-            {
-                "drug control": 1
-            },
-            {
-                "ecology": 1
-            },
-            {
-                "economy": 2
-            },
-            {
-                "education": 1
-            },
-            {
-                "education cooperation": 1
-            },
-            {
-                "elections": 1
-            },
-            {
-                "energy": 14
-            },
-            {
-                "energy transformation": 1
-            },
-            {
-                "extremism": 1
-            },
-            {
-                "factors": 1
-            },
-            {
-                "food": 1
-            },
-            {
-                "foreign": 8
-            },
-            {
-                "gas": 1
-            },
-            {
-                "gastrodiplomacy": 1
-            },
-            {
-                "global governance": 1
-            },
-            {
-                "image": 3
-            },
-            {
-                "industry": 1
-            },
-            {
-                "influence": 2
-            },
-            {
-                "information": 2
-            },
-            {
-                "infrastructure": 1
-            },
-            {
-                "institution": 1
-            },
-            {
-                "integration": 1
-            },
-            {
-                "interaction": 12
-            },
-            {
-                "internet": 2
-            },
-            {
-                "language": 1
-            },
-            {
-                "leadership": 1
-            },
-            {
-                "mechanism": 1
-            },
-            {
-                "media": 2
-            },
-            {
-                "migration": 5
-            },
-            {
-                "military": 5
-            },
-            {
-                "neutrality": 1
-            },
-            {
-                "non-proliferation": 2
-            },
-            {
-                "non-state actors": 1
-            },
-            {
-                "non-traditional threats": 1
-            },
-            {
-                "nuclear": 5
-            },
-            {
-                "nuclear arms control": 1
-            },
-            {
-                "nuclear deal": 1
-            },
-            {
-                "oil-for-security concept": 1
-            },
-            {
-                "organizations": 1
-            },
-            {
-                "organized crime": 1
-            },
-            {
-                "pacifism": 1
-            },
-            {
-                "participation": 1
-            },
-            {
-                "partnership": 1
-            },
-            {
-                "party": 1
-            },
-            {
-                "peacekeeping": 1
-            },
-            {
-                "policy": 52
-            },
-            {
-                "political": 3
-            },
-            {
-                "politics of memory": 1
-            },
-            {
-                "position": 1
-            },
-            {
-                "presence": 1
-            },
-            {
-                "principle": 1
-            },
-            {
-                "public": 3
-            },
-            {
-                "reform": 1
-            },
-            {
-                "regime": 2
-            },
-            {
-                "regional policy": 1
-            },
-            {
-                "regression analysis": 1
-            },
-            {
-                "regulation": 1
-            },
-            {
-                "sanctions": 3
-            },
-            {
-                "security": 10
-            },
-            {
-                "separatist": 2
-            },
-            {
-                "social networks": 1
-            },
-            {
-                "socio-humanitarian sphere": 1
-            },
-            {
-                "sport": 2
-            },
-            {
-                "strategy": 3
-            },
-            {
-                "struggle": 1
-            },
-            {
-                "technology": 5
-            },
-            {
-                "territorial disputes": 1
-            },
-            {
-                "trafficking": 1
-            },
-            {
-                "transport": 1
-            },
-            {
-                "turn": 1
-            }
+            [
+                "Adidas",
+                1
+            ],
+            [
+                "Biden",
+                2
+            ],
+            [
+                "Big Tech",
+                1
+            ],
+            [
+                "Catalan separatist movement",
+                2
+            ],
+            [
+                "E. Macron",
+                1
+            ],
+            [
+                "EU migration policy",
+                3
+            ],
+            [
+                "European security system",
+                1
+            ],
+            [
+                "Green Transition Strategy",
+                1
+            ],
+            [
+                "Indo-Pacific Initiative",
+                1
+            ],
+            [
+                "Jair Bolsonaro",
+                1
+            ],
+            [
+                "Kurdish separatist",
+                1
+            ],
+            [
+                "Lula da Silva",
+                1
+            ],
+            [
+                "Neighbourhood First Policy",
+                1
+            ],
+            [
+                "Neutrality Policy",
+                1
+            ],
+            [
+                "Nike",
+                1
+            ],
+            [
+                "Official development assistance",
+                1
+            ],
+            [
+                "Operation Barkhane",
+                1
+            ],
+            [
+                "Paris",
+                1
+            ],
+            [
+                "Rome",
+                1
+            ],
+            [
+                "Russia",
+                1
+            ],
+            [
+                "South China Sea",
+                1
+            ],
+            [
+                "Sustainable Development",
+                1
+            ],
+            [
+                "Syrian Crisis",
+                1
+            ],
+            [
+                "Taiwan factor",
+                1
+            ],
+            [
+                "Transnistrian Problem",
+                1
+            ],
+            [
+                "Trump",
+                1
+            ],
+            [
+                "Ukrainian crisis",
+                4
+            ],
+            [
+                "Yemen Conflict",
+                1
+            ],
+            [
+                "agenda",
+                2
+            ],
+            [
+                "alliance",
+                1
+            ],
+            [
+                "analytical centers",
+                1
+            ],
+            [
+                "approach",
+                6
+            ],
+            [
+                "aviation",
+                1
+            ],
+            [
+                "balance",
+                1
+            ],
+            [
+                "border",
+                2
+            ],
+            [
+                "city",
+                1
+            ],
+            [
+                "civilian purposes",
+                2
+            ],
+            [
+                "climate",
+                3
+            ],
+            [
+                "confrontation",
+                2
+            ],
+            [
+                "cooperation",
+                7
+            ],
+            [
+                "crisis",
+                5
+            ],
+            [
+                "cultural",
+                4
+            ],
+            [
+                "degradation",
+                1
+            ],
+            [
+                "development",
+                2
+            ],
+            [
+                "diaspora",
+                1
+            ],
+            [
+                "digital",
+                3
+            ],
+            [
+                "digital economy",
+                1
+            ],
+            [
+                "digital silk road",
+                1
+            ],
+            [
+                "diplomacy",
+                10
+            ],
+            [
+                "discourse",
+                3
+            ],
+            [
+                "domestic",
+                1
+            ],
+            [
+                "drug control",
+                1
+            ],
+            [
+                "ecology",
+                1
+            ],
+            [
+                "economy",
+                2
+            ],
+            [
+                "education",
+                1
+            ],
+            [
+                "education cooperation",
+                1
+            ],
+            [
+                "elections",
+                1
+            ],
+            [
+                "energy",
+                14
+            ],
+            [
+                "energy transformation",
+                1
+            ],
+            [
+                "extremism",
+                1
+            ],
+            [
+                "factors",
+                1
+            ],
+            [
+                "food",
+                1
+            ],
+            [
+                "foreign",
+                8
+            ],
+            [
+                "gas",
+                1
+            ],
+            [
+                "gastrodiplomacy",
+                1
+            ],
+            [
+                "global governance",
+                1
+            ],
+            [
+                "image",
+                3
+            ],
+            [
+                "industry",
+                1
+            ],
+            [
+                "influence",
+                2
+            ],
+            [
+                "information",
+                2
+            ],
+            [
+                "infrastructure",
+                1
+            ],
+            [
+                "institution",
+                1
+            ],
+            [
+                "integration",
+                1
+            ],
+            [
+                "interaction",
+                12
+            ],
+            [
+                "internet",
+                2
+            ],
+            [
+                "language",
+                1
+            ],
+            [
+                "leadership",
+                1
+            ],
+            [
+                "mechanism",
+                1
+            ],
+            [
+                "media",
+                2
+            ],
+            [
+                "migration",
+                5
+            ],
+            [
+                "military",
+                5
+            ],
+            [
+                "neutrality",
+                1
+            ],
+            [
+                "non-proliferation",
+                2
+            ],
+            [
+                "non-state actors",
+                1
+            ],
+            [
+                "non-traditional threats",
+                1
+            ],
+            [
+                "nuclear",
+                5
+            ],
+            [
+                "nuclear arms control",
+                1
+            ],
+            [
+                "nuclear deal",
+                1
+            ],
+            [
+                "oil-for-security concept",
+                1
+            ],
+            [
+                "organizations",
+                1
+            ],
+            [
+                "organized crime",
+                1
+            ],
+            [
+                "pacifism",
+                1
+            ],
+            [
+                "participation",
+                1
+            ],
+            [
+                "partnership",
+                1
+            ],
+            [
+                "party",
+                1
+            ],
+            [
+                "peacekeeping",
+                1
+            ],
+            [
+                "policy",
+                52
+            ],
+            [
+                "political",
+                3
+            ],
+            [
+                "politics of memory",
+                1
+            ],
+            [
+                "position",
+                1
+            ],
+            [
+                "presence",
+                1
+            ],
+            [
+                "principle",
+                1
+            ],
+            [
+                "public",
+                3
+            ],
+            [
+                "reform",
+                1
+            ],
+            [
+                "regime",
+                2
+            ],
+            [
+                "regional policy",
+                1
+            ],
+            [
+                "regression analysis",
+                1
+            ],
+            [
+                "regulation",
+                1
+            ],
+            [
+                "sanctions",
+                3
+            ],
+            [
+                "security",
+                10
+            ],
+            [
+                "separatist",
+                2
+            ],
+            [
+                "social networks",
+                1
+            ],
+            [
+                "socio-humanitarian sphere",
+                1
+            ],
+            [
+                "sport",
+                2
+            ],
+            [
+                "strategy",
+                3
+            ],
+            [
+                "struggle",
+                1
+            ],
+            [
+                "technology",
+                5
+            ],
+            [
+                "territorial disputes",
+                1
+            ],
+            [
+                "trafficking",
+                1
+            ],
+            [
+                "transport",
+                1
+            ],
+            [
+                "turn",
+                1
+            ]
         ]
     },
     "connections": [
