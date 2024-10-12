@@ -1,47 +1,13 @@
 node1,node2,times
-Novikov,Oceania,1
-China,Novikov,4
-Novikov,Solomon Islands,1
-Kiribati,Novikov,1
-Novikov,infrastructure,1
-Novikov,security,3
-Novikov,military,1
 China,Oceania,1
-Oceania,Solomon Islands,1
-Kiribati,Oceania,1
-Oceania,infrastructure,1
 Oceania,security,1
 Oceania,military,1
-China,Solomon Islands,1
-China,Kiribati,1
-China,infrastructure,1
 China,security,2
 China,military,1
-Kiribati,Solomon Islands,1
-Solomon Islands,infrastructure,1
-Solomon Islands,security,1
-Solomon Islands,military,1
-Kiribati,infrastructure,1
-Kiribati,security,1
-Kiribati,military,1
-infrastructure,security,1
-infrastructure,military,1
 military,security,1
 EU,Yashina,2
-Yashina,transport,1
-Yashina,integration,1
-Yashina,aviation,1
 Yashina,civilian purposes,1
-EU,transport,1
-EU,integration,1
-EU,aviation,1
 EU,civilian purposes,1
-integration,transport,1
-aviation,transport,1
-civilian purposes,transport,1
-aviation,integration,1
-civilian purposes,integration,1
-aviation,civilian purposes,1
 Russia,Zakharov,1
 India,Zakharov,3
 Zakharov,cooperation,2
@@ -64,39 +30,16 @@ US,civilian purposes,1
 cooperation,technology,1
 civilian purposes,cooperation,1
 civilian purposes,technology,1
-Glaser,New Zealand,1
 Glaser,Oceania,1
 Glaser,cooperation,1
-Glaser,ecology,1
 Glaser,climate,1
 Glaser,policy,2
-New Zealand,Oceania,1
-New Zealand,cooperation,1
-New Zealand,ecology,1
-New Zealand,climate,1
-New Zealand,policy,1
 Oceania,cooperation,1
-Oceania,ecology,1
 Oceania,climate,1
 Oceania,policy,1
-cooperation,ecology,1
 climate,cooperation,1
 cooperation,policy,1
-climate,ecology,1
-ecology,policy,1
 climate,policy,3
-Frolov,North Korea,1
-East Asia,Frolov,1
-Frolov,nuclear,1
-Frolov,security,1
-Frolov,technology,1
-East Asia,North Korea,1
-North Korea,nuclear,1
-North Korea,security,1
-North Korea,technology,1
-East Asia,nuclear,1
-East Asia,security,1
-East Asia,technology,1
 nuclear,security,1
 nuclear,technology,1
 security,technology,1
@@ -108,54 +51,28 @@ EU,Italy,2
 Italy,policy,3
 Italy,military,1
 Italy,technology,1
-EU,policy,10
+EU,policy,11
 EU,military,1
 EU,technology,1
 military,policy,2
 policy,technology,2
 military,technology,1
 Kosevich,Spain,1
-Kosevich,Venezuela,1
-Kosevich,Latin America,1
-Caribbean,Kosevich,1
+Kosevich,Latin America,2
 Kosevich,strategy,1
 Kosevich,interaction,2
-Spain,Venezuela,1
 Latin America,Spain,1
-Caribbean,Spain,1
 Spain,strategy,1
 Spain,interaction,1
-Latin America,Venezuela,1
-Caribbean,Venezuela,1
-Venezuela,strategy,1
-Venezuela,interaction,1
-Caribbean,Latin America,1
 Latin America,strategy,1
-Latin America,interaction,1
-Caribbean,strategy,1
-Caribbean,interaction,1
+Latin America,interaction,3
 interaction,strategy,1
-Bordachev,Russia,1
-Bordachev,UN,1
-Bordachev,reform,1
 Russia,UN,1
-Russia,reform,1
-UN,reform,1
-Bartenev,US,1
-Bartenev,Biden,1
-Bartenev,military,1
-Bartenev,policy,1
 Biden,US,2
 US,military,2
-US,policy,12
+US,policy,13
 Biden,military,1
 Biden,policy,2
-France,Novikov,4
-EU,Novikov,5
-Novikov,nuclear,3
-Novikov,energy,4
-Novikov,development,2
-Novikov,policy,16
 EU,France,4
 France,nuclear,1
 France,energy,4
@@ -170,11 +87,6 @@ nuclear,policy,2
 development,energy,1
 energy,policy,8
 development,policy,1
-Kutyrev,UK,1
-Kutyrev,Spain,1
-Catalan separatist movement,Kutyrev,1
-Kutyrev,media,1
-Kutyrev,image,1
 Spain,UK,1
 Catalan separatist movement,UK,1
 UK,media,1
@@ -187,44 +99,18 @@ Catalan separatist movement,image,1
 image,media,2
 Batyuk,Japan,1
 Batyuk,US,3
-Batyuk,alliance,1
 Batyuk,policy,1
 Batyuk,security,2
 Japan,US,1
-Japan,alliance,1
 Japan,policy,5
 Japan,security,2
-US,alliance,1
 US,security,2
-alliance,policy,1
-alliance,security,1
 policy,security,1
-Mexico,Novikov,2
-Novikov,US,6
-Novikov,influence,1
-Novikov,mechanism,1
-Novikov,diaspora,1
-Novikov,Trump,1
 Mexico,US,4
 Mexico,influence,1
-Mexico,mechanism,1
-Mexico,diaspora,1
-Mexico,Trump,1
 Mexico,policy,4
 US,influence,1
-US,mechanism,1
-US,diaspora,1
-Trump,US,1
-influence,mechanism,1
-diaspora,influence,1
-Trump,influence,1
 influence,policy,2
-diaspora,mechanism,1
-Trump,mechanism,1
-mechanism,policy,1
-Trump,diaspora,1
-diaspora,policy,1
-Trump,policy,1
 Batyuk,Mexico,1
 Batyuk,border,1
 Batyuk,migration,1
@@ -238,14 +124,7 @@ Mexico,interaction,1
 border,migration,1
 border,interaction,1
 interaction,migration,1
-EU,Zuev,1
-Green Transition Strategy,Zuev,1
-Zuev,climate,1
-Zuev,policy,1
-EU,Green Transition Strategy,1
 EU,climate,2
-Green Transition Strategy,climate,1
-Green Transition Strategy,policy,1
 Japan,Puzyanova,3
 ASEAN,Puzyanova,1
 Puzyanova,security,1
@@ -255,46 +134,25 @@ France,Zinovieva,1
 EU,Zinovieva,1
 Zinovieva,digital,1
 Zinovieva,diplomacy,1
-Zinovieva,social networks,1
 France,digital,1
 France,diplomacy,4
-France,social networks,1
 EU,digital,1
 EU,diplomacy,2
-EU,social networks,1
 digital,diplomacy,1
-digital,social networks,1
-diplomacy,social networks,1
-Novikov,foreign,4
-Novikov,discourse,2
-Novikov,border,1
-Novikov,elections,1
 US,foreign,2
 US,discourse,1
-US,elections,1
 Mexico,foreign,1
 Mexico,discourse,1
-Mexico,elections,1
 foreign,policy,9
 discourse,foreign,3
 border,foreign,1
-elections,foreign,1
 discourse,policy,4
 border,policy,2
-elections,policy,2
 policy,policy,1
 border,discourse,1
-discourse,elections,1
-border,elections,1
-Moldova,Novikov,2
-Novikov,Transnistrian Problem,1
 Moldova,foreign,1
 Moldova,policy,1
 Moldova,discourse,1
-Moldova,Transnistrian Problem,1
-Transnistrian Problem,foreign,1
-Transnistrian Problem,policy,1
-Transnistrian Problem,discourse,1
 Bass,Germany,4
 Bass,China,1
 Bass,policy,4
@@ -316,159 +174,59 @@ interaction,policy,3
 economy,political,1
 economy,interaction,1
 interaction,political,1
-Batyuk,Colombia,1
+Batyuk,Latin America,1
 Batyuk,cooperation,1
-Batyuk,non-traditional threats,1
-Batyuk,extremism,1
-Batyuk,organized crime,1
-Batyuk,trafficking,1
-Colombia,US,1
-US,non-traditional threats,1
-US,extremism,1
-US,organized crime,1
-US,trafficking,1
-Colombia,cooperation,1
-Colombia,non-traditional threats,1
-Colombia,security,1
-Colombia,extremism,1
-Colombia,organized crime,1
-Colombia,trafficking,1
-cooperation,non-traditional threats,1
+Latin America,US,3
+Latin America,cooperation,1
+Latin America,security,2
 cooperation,security,1
-cooperation,extremism,1
-cooperation,organized crime,1
-cooperation,trafficking,1
-non-traditional threats,security,1
-extremism,non-traditional threats,1
-non-traditional threats,organized crime,1
-non-traditional threats,trafficking,1
-extremism,security,1
-organized crime,security,1
-security,trafficking,1
-extremism,organized crime,1
-extremism,trafficking,1
-organized crime,trafficking,1
 US,Zinovieva,1
-Russia,Zinovieva,2
+Russia,Zinovieva,1
 Ukraine,Zinovieva,1
-Zinovieva,analytical centers,1
 Zinovieva,confrontation,1
 Zinovieva,information,1
 Ukrainian crisis,Zinovieva,1
 Zinovieva,crisis,1
 Russia,US,5
 US,Ukraine,1
-US,analytical centers,1
 US,confrontation,1
 US,information,1
 US,Ukrainian crisis,1
 US,crisis,1
-Russia,Ukraine,4
-Russia,analytical centers,2
-Russia,confrontation,3
-Russia,information,3
-Russia,Russia,1
-Russia,Ukrainian crisis,4
-Russia,crisis,4
-Ukraine,analytical centers,1
+Russia,Ukraine,3
+Russia,confrontation,2
+Russia,information,2
+Russia,Ukrainian crisis,3
+Russia,crisis,3
 Ukraine,confrontation,1
 Ukraine,information,1
 Ukraine,Ukrainian crisis,4
 Ukraine,crisis,4
-analytical centers,confrontation,1
-analytical centers,information,1
-Ukrainian crisis,analytical centers,1
-analytical centers,crisis,1
 confrontation,information,2
 Ukrainian crisis,confrontation,1
 confrontation,crisis,1
 Ukrainian crisis,information,1
 crisis,information,1
 Ukrainian crisis,crisis,4
-ASEAN,Novikov,1
-Novikov,image,1
 ASEAN,China,1
 China,image,1
 ASEAN,policy,2
 ASEAN,image,1
 image,policy,1
-Afghanistan,Novikov,1
-Central Asia,Novikov,1
-Novikov,Tajikistan,1
-Novikov,Uzbekistan,2
-Afghanistan,Central Asia,1
-Afghanistan,Tajikistan,1
-Afghanistan,Uzbekistan,1
-Afghanistan,foreign,1
-Afghanistan,policy,1
-Central Asia,Tajikistan,1
-Central Asia,Uzbekistan,1
 Central Asia,foreign,1
 Central Asia,policy,1
-Tajikistan,Uzbekistan,1
-Tajikistan,foreign,1
-Tajikistan,policy,1
-Uzbekistan,foreign,1
-Uzbekistan,policy,1
 France,Yashina,1
 Yashina,diplomacy,1
-Yashina,city,1
 Yashina,public,1
-Rome,Yashina,1
-Paris,Yashina,1
 France,Italy,1
 Italy,diplomacy,2
-Italy,city,1
 Italy,public,1
-Italy,Rome,1
-Italy,Paris,1
-France,city,1
 France,public,1
-France,Rome,1
-France,Paris,1
-city,diplomacy,1
 diplomacy,public,3
-Rome,diplomacy,1
-Paris,diplomacy,1
-city,public,1
-Rome,city,1
-Paris,city,1
-Rome,public,1
-Paris,public,1
-Paris,Rome,1
-China,Karneev,1
-Karneev,Vietnam,1
-Karneev,Philippines,1
-Karneev,Taiwan factor,1
-Karneev,South China Sea,1
-Karneev,territorial disputes,1
-Karneev,interaction,1
 China,Vietnam,1
-China,Philippines,1
-China,Taiwan factor,1
-China,South China Sea,1
-China,territorial disputes,1
-Philippines,Vietnam,1
-Taiwan factor,Vietnam,1
-South China Sea,Vietnam,1
-Vietnam,territorial disputes,1
 Vietnam,interaction,1
-Philippines,Taiwan factor,1
-Philippines,South China Sea,1
-Philippines,territorial disputes,1
-Philippines,interaction,1
-South China Sea,Taiwan factor,1
-Taiwan factor,territorial disputes,1
-Taiwan factor,interaction,1
-South China Sea,territorial disputes,1
-South China Sea,interaction,1
-interaction,territorial disputes,1
-Kurdin,Russia,1
-EU,Kurdin,1
-Kurdin,diplomacy,1
-Kurdin,energy,1
-EU,Russia,3
-Russia,diplomacy,3
+EU,Russia,4
+Russia,diplomacy,4
 diplomacy,energy,2
 Korneev,Spain,1
 EU,Korneev,1
@@ -500,27 +258,9 @@ China,cooperation,1
 China,energy,1
 cooperation,political,1
 energy,political,1
-Austria,Lukyanov,1
 Lukyanov,Ukraine,1
-Lukyanov,neutrality,1
-Lukyanov,Neutrality Policy,1
 Lukyanov,Ukrainian crisis,1
 Lukyanov,crisis,1
-Austria,Ukraine,1
-Austria,neutrality,1
-Austria,Neutrality Policy,1
-Austria,Ukrainian crisis,1
-Austria,crisis,1
-Ukraine,neutrality,1
-Neutrality Policy,Ukraine,1
-Neutrality Policy,neutrality,1
-Ukrainian crisis,neutrality,1
-crisis,neutrality,1
-Neutrality Policy,Ukrainian crisis,1
-Neutrality Policy,crisis,1
-Germany,Novikov,1
-Novikov,strategy,1
-Novikov,approach,3
 France,Germany,1
 EU,Germany,1
 Germany,energy,3
@@ -545,33 +285,14 @@ Italy,approach,2
 EU migration policy,approach,1
 approach,migration,1
 approach,policy,2
-Indonesia,Kanaev,1
 ASEAN,Kanaev,2
-Indo-Pacific Initiative,Kanaev,1
 Kanaev,policy,1
-ASEAN,Indonesia,1
-Indo-Pacific Initiative,Indonesia,1
-Indonesia,policy,1
-ASEAN,Indo-Pacific Initiative,1
-Indo-Pacific Initiative,policy,1
-Novikov,Russia,9
 Russia,security,2
 EU,security,1
 energy,security,1
-Novikov,nuclear arms control,1
-Novikov,degradation,1
-nuclear,nuclear arms control,1
-degradation,nuclear arms control,1
-degradation,nuclear,1
-Germany,Romanova,1
-Romanova,policy,1
-Romanova,energy,1
-Krivushin,UK,1
-Krivushin,Nigeria,1
-Krivushin,policy,1
-Nigeria,UK,1
+Africa,UK,1
 UK,policy,1
-Nigeria,policy,1
+Africa,policy,3
 Russia,Yashina,1
 Ukraine,Yashina,1
 Yashina,image,1
@@ -594,22 +315,9 @@ Ukrainian crisis,media,1
 crisis,media,1
 France,Yenikeev,2
 EU,Yenikeev,1
-Yenikeev,energy transformation,1
 Yenikeev,policy,3
-France,energy transformation,1
-EU,energy transformation,1
-energy,energy transformation,1
-energy transformation,policy,1
-Sri Lanka,Zakharov,1
-Neighbourhood First Policy,Zakharov,1
 Zakharov,policy,1
-India,Sri Lanka,1
-India,Neighbourhood First Policy,1
 India,policy,1
-Neighbourhood First Policy,Sri Lanka,1
-Sri Lanka,policy,1
-Neighbourhood First Policy,policy,1
-Novikov,sanctions,2
 Russia,policy,9
 Russia,sanctions,3
 EU,sanctions,1
@@ -621,20 +329,11 @@ Japan,Vietnam,2
 Japan,migration,1
 Vietnam,migration,1
 Vietnam,policy,1
-Japan,Paramonov,1
-Paramonov,South Korea,1
-Paramonov,Vietnam,1
-Official development assistance,Paramonov,1
-Paramonov,approach,1
 Japan,South Korea,1
-Japan,Official development assistance,1
 Japan,approach,1
 South Korea,Vietnam,1
-Official development assistance,South Korea,1
 South Korea,approach,2
-Official development assistance,Vietnam,1
 Vietnam,approach,1
-Official development assistance,approach,1
 Lukyanov,US,1
 Lukyanov,South Korea,1
 Lukyanov,cooperation,1
@@ -643,160 +342,61 @@ South Korea,US,1
 South Korea,cooperation,1
 South Korea,military,1
 cooperation,military,1
-Indo-Pacific region,Novikov,1
-Novikov,South Korea,1
-Novikov,participation,1
-Indo-Pacific region,South Korea,1
-Indo-Pacific region,participation,1
-Indo-Pacific region,approach,1
-South Korea,participation,1
-approach,participation,1
-Novikov,Turkey,1
-Novikov,Syria,1
-Novikov,Syrian Crisis,1
 Syria,Turkey,2
 Turkey,US,2
-Syrian Crisis,Turkey,1
 Turkey,policy,2
 Syria,US,2
-Syria,Syrian Crisis,1
 Syria,policy,2
-Syrian Crisis,US,1
-Syrian Crisis,policy,1
-Novikov,United Arab Emirates,1
-Novikov,technology,1
-Russia,United Arab Emirates,1
+Middle East,Russia,1
 Russia,technology,1
-United Arab Emirates,technology,1
-United Arab Emirates,policy,1
-Algeria,Novikov,1
-Morocco,Novikov,1
-Algeria,Morocco,1
-Algeria,policy,1
-Morocco,policy,1
-Sherstyukov,US,1
-Sherstyukov,Syria,1
-Sherstyukov,Turkey,1
-Kurdish separatist,Sherstyukov,1
-Sherstyukov,separatist,1
-Sherstyukov,policy,1
-Sherstyukov,interaction,1
-Kurdish separatist,US,1
+Middle East,technology,1
+Middle East,policy,4
 US,separatist,1
-Kurdish separatist,Syria,1
 Syria,separatist,1
 Syria,interaction,1
-Kurdish separatist,Turkey,1
 Turkey,separatist,1
 Turkey,interaction,1
-Kurdish separatist,separatist,1
-Kurdish separatist,policy,1
-Kurdish separatist,interaction,1
 policy,separatist,2
 interaction,separatist,1
-Italy,Novikov,2
-NATO,Novikov,1
-Italy,NATO,1
-NATO,approach,1
-Puzyanova,pacifism,1
-Puzyanova,principle,1
-Puzyanova,peacekeeping,1
 Puzyanova,policy,2
-Japan,pacifism,1
-Japan,principle,1
-Japan,peacekeeping,1
-pacifism,principle,1
-pacifism,peacekeeping,1
-pacifism,policy,1
-peacekeeping,principle,1
-policy,principle,1
-peacekeeping,policy,1
-European security system,Novikov,1
-European security system,Italy,1
 Italy,development,1
 Italy,security,1
-European security system,development,1
-European security system,security,1
 development,security,1
-Novikov,information,1
-Novikov,confrontation,1
 Moldova,Russia,1
 Moldova,information,1
 Moldova,confrontation,1
-Falconer,US,1
-Falconer,Saudi Arabia,1
-Falconer,oil-for-security concept,1
-Falconer,foreign,1
-Falconer,policy,1
 Saudi Arabia,US,2
-US,oil-for-security concept,1
-Saudi Arabia,oil-for-security concept,1
+Middle East,US,2
+Middle East,Saudi Arabia,4
 Saudi Arabia,foreign,1
 Saudi Arabia,policy,3
-foreign,oil-for-security concept,1
-oil-for-security concept,policy,1
+Middle East,foreign,1
 Japan,Yenikeev,1
-Yenikeev,gas,1
 Japan,Russia,1
-Russia,gas,1
-Japan,gas,1
 Japan,energy,1
-gas,policy,1
-energy,gas,1
-Novikov,Serbia,1
-Novikov,West,1
-Novikov,balance,1
-Serbia,West,1
+Serbia,US,1
+EU,Serbia,1
 Russia,Serbia,2
-Serbia,balance,1
 Serbia,policy,1
-Russia,West,1
-West,balance,1
-West,policy,1
-Russia,balance,1
-balance,policy,1
+EU,US,2
 Kosevich,US,1
 Brazil,Kosevich,1
 Brazil,US,1
+Brazil,Latin America,4
 Brazil,interaction,1
-Russia,Training,1
-Tajikistan,Training,1
-Kyrgyzstan,Training,1
-Training,security,1
-Training,interaction,1
-Russia,Tajikistan,1
-Kyrgyzstan,Russia,1
+Central Asia,Russia,3
 Russia,interaction,2
-Kyrgyzstan,Tajikistan,1
-Tajikistan,security,1
-Tajikistan,interaction,1
-Kyrgyzstan,security,1
-Kyrgyzstan,interaction,1
+Central Asia,security,2
+Central Asia,interaction,2
 interaction,security,2
 Entina,France,1
-Entina,North Africa,1
-Entina,presence,1
+Africa,Entina,1
 Entina,military,1
-France,North Africa,1
-France,presence,1
+Africa,France,3
 France,military,1
-North Africa,presence,1
-North Africa,military,1
-military,presence,1
-Mali,Novikov,1
-Côte d'Ivoire,Novikov,1
-Novikov,politics of memory,1
-Novikov,interaction,1
-France,Mali,1
-Côte d'Ivoire,France,1
-France,politics of memory,1
+Africa,military,1
 France,interaction,1
-Côte d'Ivoire,Mali,1
-Mali,politics of memory,1
-Mali,interaction,1
-Côte d'Ivoire,politics of memory,1
-Côte d'Ivoire,interaction,1
-interaction,politics of memory,1
+Africa,interaction,1
 Puzyanova,non-proliferation,1
 Puzyanova,nuclear,1
 Puzyanova,foreign,1
@@ -812,45 +412,21 @@ discourse,non-proliferation,1
 foreign,nuclear,1
 discourse,nuclear,1
 Kanaev,Russia,1
-Kanaev,digital economy,1
 Kanaev,digital,1
-Kanaev,partnership,1
 ASEAN,Russia,1
-Russia,digital economy,1
 Russia,digital,1
-Russia,partnership,1
-ASEAN,digital economy,1
 ASEAN,digital,1
-ASEAN,partnership,1
-digital,digital economy,1
-digital economy,partnership,1
-digital,partnership,1
 Mexico,Rosenthal,1
 Rosenthal,US,1
-Canada,Rosenthal,1
 Rosenthal,energy,2
 Rosenthal,policy,1
-Canada,Mexico,1
 Mexico,energy,1
-Canada,US,1
 US,energy,1
-Canada,energy,1
-Canada,policy,1
-Brazil,Senyuk,1
-BRICS,Senyuk,1
-Senyuk,policy,1
-Jair Bolsonaro,Senyuk,1
-Lula da Silva,Senyuk,1
 BRICS,Brazil,1
 Brazil,policy,2
-Brazil,Jair Bolsonaro,1
-Brazil,Lula da Silva,1
+BRICS,Latin America,1
 BRICS,policy,1
-BRICS,Jair Bolsonaro,1
-BRICS,Lula da Silva,1
-Jair Bolsonaro,policy,1
-Lula da Silva,policy,1
-Jair Bolsonaro,Lula da Silva,1
+Latin America,policy,2
 Maslova,cultural,1
 Maslova,diplomacy,1
 Italy,cultural,1
@@ -860,154 +436,57 @@ diplomacy,policy,2
 Lukyanov,Russia,1
 Lukyanov,sport,1
 Lukyanov,policy,2
-Lukyanov,organizations,1
 Russia,sport,2
-Russia,organizations,1
 policy,sport,1
-organizations,sport,1
-organizations,policy,1
-France,Russia,1
-Karpova,Russia,1
-Karpova,strategy,1
-Karpova,sanctions,1
-Karpova,sport,1
-Karpova,industry,1
-Adidas,Karpova,1
-Karpova,Nike,1
+France,Russia,2
 Russia,strategy,1
-Russia,industry,1
-Adidas,Russia,1
-Nike,Russia,1
 sanctions,strategy,1
 sport,strategy,1
-industry,strategy,1
-Adidas,strategy,1
-Nike,strategy,1
 sanctions,sport,1
-industry,sanctions,1
-Adidas,sanctions,1
-Nike,sanctions,1
-industry,sport,1
-Adidas,sport,1
-Nike,sport,1
-Adidas,industry,1
-Nike,industry,1
-Adidas,Nike,1
 Batyuk,UN,1
 Batyuk,regime,1
-Batyuk,drug control,1
 UN,regime,1
-UN,drug control,1
-drug control,regime,1
-China,Rozhkov,1
-Rozhkov,digital silk road,1
-Rozhkov,leadership,1
-Rozhkov,technology,1
-Rozhkov,digital,1
-China,digital silk road,1
-China,leadership,1
 China,technology,1
 China,digital,1
-digital silk road,leadership,1
-digital silk road,technology,1
-digital,digital silk road,1
-leadership,technology,1
-digital,leadership,1
 digital,technology,1
 Germany,Lukyanov,1
-Belarus,Lukyanov,1
-Lukyanov,socio-humanitarian sphere,1
-Belarus,Germany,1
-Germany,socio-humanitarian sphere,1
-Belarus,socio-humanitarian sphere,1
-Belarus,policy,1
-policy,socio-humanitarian sphere,1
-Belous,EU,1
-Belous,Spain,1
-Belous,regional policy,1
-Belous,policy,1
-Belous,Catalan separatist movement,1
-Belous,separatist,1
-EU,regional policy,1
 Catalan separatist movement,EU,1
 EU,separatist,1
-Spain,regional policy,1
 Spain,separatist,1
-policy,regional policy,1
-Catalan separatist movement,regional policy,1
-regional policy,separatist,1
 Catalan separatist movement,policy,1
 Catalan separatist movement,separatist,1
 Baklanov,US,1
 Baklanov,Saudi Arabia,3
+Baklanov,Middle East,3
 Baklanov,policy,2
-Brazil,Novikov,1
-Novikov,regression analysis,1
-Novikov,economy,1
 Brazil,China,1
 Brazil,foreign,1
-Brazil,regression analysis,1
 Brazil,economy,1
+China,Latin America,2
 China,foreign,1
-China,regression analysis,1
-foreign,regression analysis,1
+Latin America,foreign,1
+Latin America,economy,1
 economy,foreign,1
-policy,regression analysis,1
-economy,regression analysis,1
-Iran,Novikov,1
-Novikov,nuclear deal,1
-Novikov,non-proliferation,1
-Novikov,regime,1
 Iran,US,1
-US,nuclear deal,1
 US,nuclear,1
 US,non-proliferation,1
 US,regime,1
 Iran,Russia,1
-Russia,nuclear deal,1
 Russia,nuclear,1
 Russia,non-proliferation,1
 Russia,regime,1
-Iran,nuclear deal,1
 Iran,nuclear,1
 Iran,non-proliferation,1
 Iran,regime,1
-nuclear,nuclear deal,1
-non-proliferation,nuclear deal,1
-nuclear deal,regime,1
 nuclear,regime,1
 non-proliferation,regime,1
 France,Zvereva,2
-Sahel,Zvereva,1
-Operation Barkhane,Zvereva,1
+Africa,Zvereva,1
 Zvereva,policy,2
-France,Sahel,1
-France,Operation Barkhane,1
-Operation Barkhane,Sahel,1
-Sahel,policy,1
-Operation Barkhane,policy,1
-Bass,regulation,1
 Bass,internet,1
-Bass,education cooperation,1
-Bass,Big Tech,1
-Germany,regulation,1
 Germany,internet,1
-Germany,education cooperation,1
-Big Tech,Germany,1
-policy,regulation,1
 internet,policy,1
-education cooperation,policy,1
-Big Tech,policy,1
-internet,regulation,1
-education cooperation,regulation,1
-Big Tech,regulation,1
-interaction,regulation,1
-education cooperation,internet,1
-Big Tech,internet,1
 interaction,internet,1
-Big Tech,education cooperation,1
-education cooperation,interaction,1
-Big Tech,interaction,1
 Entina,Russia,1
 Entina,Serbia,1
 Entina,Ukraine,1
@@ -1021,196 +500,81 @@ Serbia,crisis,1
 Ukraine,interaction,1
 Ukrainian crisis,interaction,1
 crisis,interaction,1
-China,Sizova,1
-Kazakhstan,Sizova,1
-Sizova,security,1
-Sizova,interaction,1
 China,Kazakhstan,1
+Central Asia,China,1
+Central Asia,Kazakhstan,1
 Kazakhstan,security,1
 Kazakhstan,interaction,1
-Entina,Poland,1
-Entina,Hungary,1
 EU,Entina,1
 Entina,policy,1
-Hungary,Poland,1
-EU,Poland,1
-Poland,policy,1
-EU,Hungary,1
-Hungary,policy,1
-Novikov,cooperation,1
-Novikov,education,1
-Novikov,non-state actors,1
-Russia,Uzbekistan,1
-Russia,education,1
-Russia,non-state actors,1
-Uzbekistan,cooperation,1
-Uzbekistan,education,1
-Uzbekistan,non-state actors,1
-cooperation,education,1
-cooperation,non-state actors,1
-education,non-state actors,1
-Novikov,cultural,2
-Novikov,diplomacy,3
-Novikov,language,1
-Russia,cultural,1
-Russia,language,1
+Central Asia,cooperation,1
+Russia,cultural,2
 China,cultural,1
 China,diplomacy,1
-China,language,1
-cultural,language,1
-diplomacy,language,1
-language,policy,1
 Baklanov,Iran,1
 Iran,Saudi Arabia,1
+Iran,Middle East,1
 Iran,policy,1
 Bass,EU migration policy,1
 Bass,migration,1
 EU migration policy,Germany,1
 Germany,migration,1
 UN,Zinovieva,1
-Zinovieva,global governance,1
 Zinovieva,internet,1
-UN,global governance,1
 UN,internet,1
-global governance,internet,1
-Scribe,US,1
-Russia,Scribe,1
-Central Asia,Scribe,1
-Kazakhstan,Scribe,1
-Scribe,public,1
-Scribe,diplomacy,1
 Central Asia,US,1
-Kazakhstan,US,1
 US,public,1
 US,diplomacy,1
-Central Asia,Russia,1
-Kazakhstan,Russia,1
 Russia,public,1
-Central Asia,Kazakhstan,1
 Central Asia,public,1
 Central Asia,diplomacy,1
-Kazakhstan,public,1
-Kazakhstan,diplomacy,1
-Novikov,Spain,1
-Novikov,gastrodiplomacy,1
-Novikov,public,1
-Spain,gastrodiplomacy,1
 Spain,public,1
 Spain,diplomacy,1
-gastrodiplomacy,public,1
-diplomacy,gastrodiplomacy,1
-Cats,Germany,1
-Cats,turn,1
-Cats,energy,1
-Cats,policy,1
-Germany,turn,1
-energy,turn,1
-policy,turn,1
 Brazil,Shcherbakova,1
-Shcherbakova,food,1
+Latin America,Shcherbakova,2
 Shcherbakova,security,1
-Brazil,food,1
 Brazil,security,1
-food,security,1
 Germany,Glaser,1
 Glaser,foreign,1
 Glaser,approach,1
 Germany,foreign,2
 approach,foreign,1
-Novikov,factors,1
-Novikov,political,1
-Novikov,domestic,1
 US,sanctions,1
-US,factors,1
 US,political,1
-US,domestic,1
-Russia,factors,1
-Russia,domestic,1
-factors,sanctions,1
 political,sanctions,1
-domestic,sanctions,1
-factors,policy,1
-domestic,policy,1
-factors,political,1
-domestic,factors,1
-domestic,political,1
 BRICS,Lukyanov,1
-Lukyanov,institution,1
 Lukyanov,agenda,1
-BRICS,institution,1
 BRICS,agenda,1
-agenda,institution,1
-Baklanov,Yemen,1
-Baklanov,Yemen Conflict,1
 Baklanov,crisis,1
-Baklanov,position,1
-Saudi Arabia,Yemen,1
-Saudi Arabia,Yemen Conflict,1
 Saudi Arabia,crisis,1
-Saudi Arabia,position,1
-Yemen,Yemen Conflict,1
-Yemen,crisis,1
-Yemen,position,1
-Yemen Conflict,crisis,1
-Yemen Conflict,position,1
-crisis,position,1
-France,Grafova,1
-Grafova,Russian Federation,1
-Grafova,cultural,1
-Grafova,diplomacy,1
-France,Russian Federation,1
+Middle East,crisis,1
 France,cultural,2
-Russian Federation,cultural,1
-Russian Federation,diplomacy,1
-E. Macron,Novikov,1
-E. Macron,France,1
-E. Macron,cultural,1
-E. Macron,diplomacy,1
-Biden,Novikov,1
-Novikov,climate,1
-EU,US,1
 US,climate,1
 Biden,EU,1
 Biden,climate,1
 Bass,Russia,1
-Bass,party,1
-Bass,struggle,1
 Bass,foreign,1
 Germany,Russia,1
-Germany,party,1
-Germany,struggle,1
-Russia,party,1
-Russia,struggle,1
 Russia,foreign,1
-party,struggle,1
-foreign,party,1
-party,policy,1
-foreign,struggle,1
-policy,struggle,1
 Argentina,Shcherbakova,1
 Shcherbakova,US,1
 China,Shcherbakova,1
 Shcherbakova,interaction,1
 Argentina,US,1
 Argentina,China,1
+Argentina,Latin America,2
 Argentina,interaction,1
 China,US,1
 UN,Zvereva,1
 Zvereva,agenda,1
-Sustainable Development,Zvereva,1
 France,UN,1
 France,agenda,1
-France,Sustainable Development,1
 UN,agenda,1
-Sustainable Development,UN,1
 UN,policy,1
-Sustainable Development,agenda,1
 agenda,policy,1
-Sustainable Development,policy,1
 Argentina,Rosenthal,1
 Latin America,Rosenthal,1
 Rosenthal,diplomacy,1
-Argentina,Latin America,1
 Argentina,diplomacy,1
 Argentina,energy,1
 Latin America,diplomacy,1

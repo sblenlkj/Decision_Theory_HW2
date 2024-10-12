@@ -6,29 +6,6 @@ from deep_translator import GoogleTranslator
 import logging
 logging.basicConfig(level=logging.INFO)
 
-import hashlib
-from collections import defaultdict, Counter
-from itertools import combinations
-
-class Connection:
-    def __init__(self, a, b):
-        self.a, self.b = sorted([a, b])
-    
-    def __repr__(self) -> str:
-        return f"Connection({self.a}, {self.b})"
-    
-    def __eq__(self, value: object) -> bool:
-        return self.a == value.a and self.b == value.b
-    
-    def __hash__(self) -> int:
-        return self.hash_function(self.b + self.a)
-    
-    def to_list(self) -> list:
-        return [self.a, self.b]
-    
-    def hash_function(self, s):
-        return int(hashlib.sha1(s.encode("utf-8")).hexdigest(), 16) % (10 ** 8)
-
 class GetData:
     folder_path = "data/"
     translator = GoogleTranslator(source='ru', target='en')
@@ -102,45 +79,15 @@ class GetData:
         
         outfile = open(f"{self.folder_path}{united_file_name}", "w")
         json.dump(dct_raw, outfile, indent=4)
-    
-    def process_json(self, file_name: str) -> None:
-        infile = open(f"{self.folder_path}{file_name}")
-        dct = json.load(infile)
-        
-        nodes_dct = defaultdict(list)
-        connections_lst = []
-        
-        
-        for v in dct["data"].values():
-            nodes = []
-            nodes_dct["tutors"].append(v["tutor"])
-            nodes.append(v["tutor"])
 
-            nodes_dct["countries"].extend(v["countries"])
-            nodes.extend(v["countries"])
-
-            nodes_dct["topics"].extend(v["topics"])
-            nodes.extend(v["topics"])
-
-            connections_lst.extend([Connection(t[0], t[1]) for t in combinations(nodes, 2)])
-        
-        for k, v in nodes_dct.items():
-            nodes_dct[k] = list(map(lambda x: [x[0], x[1]], sorted(Counter(v).items())))
-        
-        dct["nodes"] = nodes_dct
-        dct["connections"] = [{"times": v, "nodes": c.to_list()} for c, v in Counter(connections_lst).items()]
-
-
-        outfile = open(f"{self.folder_path}{file_name.strip(".json")}_processed.json", "w")
-        json.dump(dct, outfile, indent=4)
 
 def main():
-    url, file_name = "https://www.hse.ru/edu/vkr/?year=2024&program=p135181773%3Bg122468442", "2024"
-    g = GetData(file_name)
+    url = "https://www.hse.ru/edu/vkr/?year=2024&program=p135181773%3Bg122468442"
+    g = GetData()
     
     # g.get_data(url)
     # g.unite_raw_ollama_jsons()
-    g.process_final_json()
+    g.process_json("2_united.json", "3_final.json")
 
 
 if __name__ == "__main__":

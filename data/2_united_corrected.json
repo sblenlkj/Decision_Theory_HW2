@@ -7,7 +7,8 @@
                 "Oceania",
                 "China",
                 "Solomon Islands",
-                "Kiribati"
+                "Kiribati",
+                "Indo-Pacific region"
             ],
             "topics": [
                 "infrastructure",
@@ -58,7 +59,8 @@
             "tutor": "Glaser",
             "countries": [
                 "New Zealand",
-                "Oceania"
+                "Oceania",
+                "Indo-Pacific region"
             ],
             "topics": [
                 "cooperation",
@@ -72,7 +74,7 @@
             "tutor": "Frolov",
             "countries": [
                 "North Korea",
-                "East Asia"
+                "Indo-Pacific region"
             ],
             "topics": [
                 "nuclear",
@@ -282,7 +284,8 @@
             "tutor": "Batyuk",
             "countries": [
                 "US",
-                "Colombia"
+                "Colombia",
+                "Latin America"
             ],
             "topics": [
                 "cooperation",
@@ -326,9 +329,7 @@
             "tutor": "Novikov",
             "countries": [
                 "Afghanistan",
-                "Central Asia",
-                "Tajikistan",
-                "Uzbekistan"
+                "Central Asia"
             ],
             "topics": [
                 "foreign",
@@ -356,7 +357,8 @@
             "countries": [
                 "China",
                 "Vietnam",
-                "Philippines"
+                "Philippines",
+                "Indo-Pacific region"
             ],
             "topics": [
                 "Taiwan factor",
@@ -451,7 +453,8 @@
             "tutor": "Kanaev",
             "countries": [
                 "Indonesia",
-                "ASEAN"
+                "ASEAN",
+                "Indo-Pacific region"
             ],
             "topics": [
                 "Indo-Pacific Initiative",
@@ -496,7 +499,8 @@
             "tutor": "Krivushin",
             "countries": [
                 "UK",
-                "Nigeria"
+                "Nigeria",
+                "Africa"
             ],
             "topics": [
                 "policy"
@@ -535,7 +539,8 @@
             "tutor": "Zakharov",
             "countries": [
                 "India",
-                "Sri Lanka"
+                "Sri Lanka",
+                "Indo-Pacific region"
             ],
             "topics": [
                 "Neighbourhood First Policy",
@@ -622,7 +627,8 @@
             "tutor": "Novikov",
             "countries": [
                 "Russia",
-                "United Arab Emirates"
+                "United Arab Emirates",
+                "Middle East"
             ],
             "topics": [
                 "technology",
@@ -634,7 +640,8 @@
             "tutor": "Novikov",
             "countries": [
                 "Algeria",
-                "Morocco"
+                "Morocco",
+                "Africa"
             ],
             "topics": [
                 "policy"
@@ -708,7 +715,8 @@
             "tutor": "Falconer",
             "countries": [
                 "US",
-                "Saudi Arabia"
+                "Saudi Arabia",
+                "Middle East"
             ],
             "topics": [
                 "oil-for-security concept",
@@ -734,7 +742,8 @@
             "tutor": "Novikov",
             "countries": [
                 "Serbia",
-                "West",
+                "US",
+                "EU",
                 "Russia"
             ],
             "topics": [
@@ -747,7 +756,8 @@
             "tutor": "Kosevich",
             "countries": [
                 "US",
-                "Brazil"
+                "Brazil",
+                "Latin America"
             ],
             "topics": [
                 "interaction"
@@ -758,8 +768,7 @@
             "tutor": "Training",
             "countries": [
                 "Russia",
-                "Tajikistan",
-                "Kyrgyzstan"
+                "Central Asia"
             ],
             "topics": [
                 "security",
@@ -771,7 +780,8 @@
             "tutor": "Entina",
             "countries": [
                 "France",
-                "North Africa"
+                "North Africa",
+                "Africa"
             ],
             "topics": [
                 "presence",
@@ -784,7 +794,8 @@
             "countries": [
                 "France",
                 "Mali",
-                "C\u00f4te d'Ivoire"
+                "C\u00f4te d'Ivoire",
+                "Africa"
             ],
             "topics": [
                 "politics of memory",
@@ -836,7 +847,8 @@
             "tutor": "Senyuk",
             "countries": [
                 "Brazil",
-                "BRICS"
+                "BRICS",
+                "Latin America"
             ],
             "topics": [
                 "policy",
@@ -948,7 +960,8 @@
             "tutor": "Baklanov",
             "countries": [
                 "US",
-                "Saudi Arabia"
+                "Saudi Arabia",
+                "Middle East"
             ],
             "topics": [
                 "policy"
@@ -959,7 +972,8 @@
             "tutor": "Novikov",
             "countries": [
                 "Brazil",
-                "China"
+                "China",
+                "Latin America"
             ],
             "topics": [
                 "foreign",
@@ -988,7 +1002,8 @@
             "tutor": "Zvereva",
             "countries": [
                 "France",
-                "Sahel"
+                "Sahel",
+                "Africa"
             ],
             "topics": [
                 "Operation Barkhane",
@@ -1029,7 +1044,8 @@
             "tutor": "Sizova",
             "countries": [
                 "China",
-                "Kazakhstan"
+                "Kazakhstan",
+                "Central Asia"
             ],
             "topics": [
                 "security",
@@ -1053,7 +1069,7 @@
             "tutor": "Novikov",
             "countries": [
                 "Russia",
-                "Uzbekistan"
+                "Central Asia"
             ],
             "topics": [
                 "cooperation",
@@ -1080,7 +1096,8 @@
             "tutor": "Baklanov",
             "countries": [
                 "Saudi Arabia",
-                "Iran"
+                "Iran",
+                "Middle East"
             ],
             "topics": [
                 "policy"
@@ -1115,8 +1132,7 @@
             "countries": [
                 "US",
                 "Russia",
-                "Central Asia",
-                "Kazakhstan"
+                "Central Asia"
             ],
             "topics": [
                 "public",
@@ -1151,7 +1167,8 @@
             "topic": "Evolution of Brazil's role in global food security 2010-2022",
             "tutor": "Shcherbakova",
             "countries": [
-                "Brazil"
+                "Brazil",
+                "Latin America"
             ],
             "topics": [
                 "food",
@@ -1199,7 +1216,8 @@
             "tutor": "Baklanov",
             "countries": [
                 "Saudi Arabia",
-                "Yemen"
+                "Yemen",
+                "Middle East"
             ],
             "topics": [
                 "Yemen Conflict",
@@ -1262,7 +1280,8 @@
             "countries": [
                 "Argentina",
                 "US",
-                "China"
+                "China",
+                "Latin America"
             ],
             "topics": [
                 "interaction"

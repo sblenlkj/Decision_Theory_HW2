@@ -1,225 +1,91 @@
 node,times,type
 Baklanov,3,tutors
-Bartenev,1,tutors
 Bass,4,tutors
 Batyuk,4,tutors
-Belous,1,tutors
-Bordachev,1,tutors
-Cats,1,tutors
 Entina,3,tutors
-Falconer,1,tutors
-Frolov,1,tutors
 Glaser,2,tutors
-Grafova,1,tutors
 Kanaev,2,tutors
-Karneev,1,tutors
-Karpova,1,tutors
 Korneev,2,tutors
 Kosevich,2,tutors
-Krivushin,1,tutors
-Kurdin,1,tutors
-Kutyrev,1,tutors
 Lukyanov,5,tutors
 Maslova,2,tutors
-Novikov,28,tutors
-Paramonov,1,tutors
 Puzyanova,3,tutors
-Romanova,1,tutors
 Rosenthal,2,tutors
-Rozhkov,1,tutors
-Scribe,1,tutors
-Senyuk,1,tutors
 Shcherbakova,2,tutors
-Sherstyukov,1,tutors
-Sizova,1,tutors
-Training,1,tutors
 Yashina,4,tutors
 Yenikeev,4,tutors
 Zakharov,3,tutors
 Zinovieva,3,tutors
-Zuev,1,tutors
 Zvereva,2,tutors
 ASEAN,4,countries
-Afghanistan,1,countries
-Algeria,1,countries
+Africa,5,countries
 Argentina,2,countries
-Austria,1,countries
 BRICS,2,countries
-Belarus,1,countries
 Brazil,4,countries
-Canada,1,countries
-Caribbean,1,countries
-Central Asia,2,countries
+Central Asia,5,countries
 China,10,countries
-Colombia,1,countries
-Côte d'Ivoire,1,countries
-EU,15,countries
-East Asia,1,countries
+EU,16,countries
 France,12,countries
 Germany,9,countries
-Hungary,1,countries
 India,3,countries
-Indo-Pacific region,1,countries
-Indonesia,1,countries
 Iran,2,countries
 Italy,7,countries
 Japan,7,countries
-Kazakhstan,2,countries
-Kiribati,1,countries
-Kyrgyzstan,1,countries
-Latin America,2,countries
-Mali,1,countries
+Kazakhstan,1,countries
+Latin America,8,countries
 Mexico,4,countries
+Middle East,5,countries
 Moldova,2,countries
-Morocco,1,countries
-NATO,1,countries
-New Zealand,1,countries
-Nigeria,1,countries
-North Africa,1,countries
-North Korea,1,countries
 Oceania,2,countries
-Philippines,1,countries
-Poland,1,countries
-Russia,24,countries
-Russian Federation,1,countries
-Sahel,1,countries
+Russia,25,countries
 Saudi Arabia,4,countries
 Serbia,2,countries
-Solomon Islands,1,countries
 South Korea,3,countries
 Spain,5,countries
-Sri Lanka,1,countries
 Syria,2,countries
-Tajikistan,2,countries
 Turkey,2,countries
 UK,2,countries
 UN,4,countries
-US,20,countries
+US,21,countries
 Ukraine,4,countries
-United Arab Emirates,1,countries
-Uzbekistan,2,countries
-Venezuela,1,countries
 Vietnam,3,countries
-West,1,countries
-Yemen,1,countries
-Adidas,1,topics
 Biden,2,topics
-Big Tech,1,topics
 Catalan separatist movement,2,topics
-E. Macron,1,topics
 EU migration policy,3,topics
-European security system,1,topics
-Green Transition Strategy,1,topics
-Indo-Pacific Initiative,1,topics
-Jair Bolsonaro,1,topics
-Kurdish separatist,1,topics
-Lula da Silva,1,topics
-Neighbourhood First Policy,1,topics
-Neutrality Policy,1,topics
-Nike,1,topics
-Official development assistance,1,topics
-Operation Barkhane,1,topics
-Paris,1,topics
-Rome,1,topics
-Russia,1,topics
-South China Sea,1,topics
-Sustainable Development,1,topics
-Syrian Crisis,1,topics
-Taiwan factor,1,topics
-Transnistrian Problem,1,topics
-Trump,1,topics
 Ukrainian crisis,4,topics
-Yemen Conflict,1,topics
 agenda,2,topics
-alliance,1,topics
-analytical centers,1,topics
 approach,6,topics
-aviation,1,topics
-balance,1,topics
 border,2,topics
-city,1,topics
 civilian purposes,2,topics
 climate,3,topics
 confrontation,2,topics
 cooperation,7,topics
 crisis,5,topics
 cultural,4,topics
-degradation,1,topics
 development,2,topics
-diaspora,1,topics
 digital,3,topics
-digital economy,1,topics
-digital silk road,1,topics
 diplomacy,10,topics
 discourse,3,topics
-domestic,1,topics
-drug control,1,topics
-ecology,1,topics
 economy,2,topics
-education,1,topics
-education cooperation,1,topics
-elections,1,topics
 energy,14,topics
-energy transformation,1,topics
-extremism,1,topics
-factors,1,topics
-food,1,topics
 foreign,8,topics
-gas,1,topics
-gastrodiplomacy,1,topics
-global governance,1,topics
 image,3,topics
-industry,1,topics
 influence,2,topics
 information,2,topics
-infrastructure,1,topics
-institution,1,topics
-integration,1,topics
 interaction,12,topics
 internet,2,topics
-language,1,topics
-leadership,1,topics
-mechanism,1,topics
 media,2,topics
 migration,5,topics
 military,5,topics
-neutrality,1,topics
 non-proliferation,2,topics
-non-state actors,1,topics
-non-traditional threats,1,topics
 nuclear,5,topics
-nuclear arms control,1,topics
-nuclear deal,1,topics
-oil-for-security concept,1,topics
-organizations,1,topics
-organized crime,1,topics
-pacifism,1,topics
-participation,1,topics
-partnership,1,topics
-party,1,topics
-peacekeeping,1,topics
 policy,52,topics
 political,3,topics
-politics of memory,1,topics
-position,1,topics
-presence,1,topics
-principle,1,topics
 public,3,topics
-reform,1,topics
 regime,2,topics
-regional policy,1,topics
-regression analysis,1,topics
-regulation,1,topics
 sanctions,3,topics
 security,10,topics
 separatist,2,topics
-social networks,1,topics
-socio-humanitarian sphere,1,topics
 sport,2,topics
 strategy,3,topics
-struggle,1,topics
 technology,5,topics
-territorial disputes,1,topics
-trafficking,1,topics
-transport,1,topics
-turn,1,topics
