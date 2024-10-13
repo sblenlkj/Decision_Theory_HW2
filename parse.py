@@ -85,9 +85,8 @@ def main():
     url = "https://www.hse.ru/edu/vkr/?year=2024&program=p135181773%3Bg122468442"
     g = GetData()
     
-    # g.get_data(url)
-    # g.unite_raw_ollama_jsons()
-    g.process_json("2_united.json", "3_final.json")
+    # g.get_data(url, "1_raw.json")
+    # g.unite_raw_ollama_jsons("1_raw.json", "1_ollama.json", "122.json")
 
 
 if __name__ == "__main__":
