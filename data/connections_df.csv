@@ -413,9 +413,13 @@ foreign,nuclear,1
 discourse,nuclear,1
 Kanaev,Russia,1
 Kanaev,digital,1
+Kanaev,economy,1
 ASEAN,Russia,1
 Russia,digital,1
+Russia,economy,1
 ASEAN,digital,1
+ASEAN,economy,1
+digital,economy,1
 Mexico,Rosenthal,1
 Rosenthal,US,1
 Rosenthal,energy,2
@@ -500,11 +504,7 @@ Serbia,crisis,1
 Ukraine,interaction,1
 Ukrainian crisis,interaction,1
 crisis,interaction,1
-China,Kazakhstan,1
 Central Asia,China,1
-Central Asia,Kazakhstan,1
-Kazakhstan,security,1
-Kazakhstan,interaction,1
 EU,Entina,1
 Entina,policy,1
 Central Asia,cooperation,1

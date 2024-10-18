@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 
 import networkx as nx
-from pyvis.network import Network
 
 from collections import defaultdict, Counter
 from itertools import combinations, accumulate
