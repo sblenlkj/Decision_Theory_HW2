@@ -114,10 +114,22 @@ class MyGraph:
     def save_dfs(self):
         node_df_to_save, connections_df = self.nodes_df.copy(), self.connections_df.copy()
 
-        node_df_to_save.res 
+        node_df_to_save["id"] = node_df_to_save["node"]
+        node_df_to_save.rename(columns={"node": "label", "type": "category", "times": "weight"}, inplace=True)
+        node_df_to_save.to_csv(f"{self.folder_path}/nodes_df.csv", index=False)
 
-        self.nodes_df.to_csv(f"{self.folder_path}/nodes_df.csv", index=False)
-        self.connections_df.to_csv(f"{self.folder_path}/connections_df.csv", index=False)
+        t = ["Undirected"] * connections_df.shape[0]
+        connections_df["type"] = np.array(t)
+        connections_df.rename(columns={"node1": "source", "node2": "target", "times": "weight"}, inplace=True)
+        connections_df.to_csv(f"{self.folder_path}/connections_df.csv", index=False)
+    
+    def example_df_to_desktop(self):
+        nodes = pd.DataFrame([[1, "a"], [2, "b"], [3, "c"], [4, "d"]], columns=["id", "label"])
+        nodes.to_csv(f"~/Desktop/nodes_df.csv", index=False)
+
+        t = "Undirected"
+        edges = pd.DataFrame([[1, 3, t], [2, 4, t], [1, 2, t]], columns=["source", "target", "type"])
+        edges.to_csv(f"~/Desktop/edges_df.csv", index=False)
     
     def DFS(self, node, not_visited_set):
         not_visited_set.remove(node)

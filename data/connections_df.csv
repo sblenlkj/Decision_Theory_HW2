@@ -1,581 +1,581 @@
-node1,node2,times
-China,Oceania,1
-Oceania,security,1
-Oceania,military,1
-China,security,2
-China,military,1
-military,security,1
-EU,Yashina,2
-Yashina,civilian purposes,1
-EU,civilian purposes,1
-Russia,Zakharov,1
-India,Zakharov,3
-Zakharov,cooperation,2
-Zakharov,energy,1
-India,Russia,1
-Russia,cooperation,3
-Russia,energy,7
-India,cooperation,2
-India,energy,1
-cooperation,energy,2
-US,Zakharov,1
-Zakharov,technology,1
-Zakharov,civilian purposes,1
-India,US,1
-India,technology,1
-India,civilian purposes,1
-US,cooperation,3
-US,technology,1
-US,civilian purposes,1
-cooperation,technology,1
-civilian purposes,cooperation,1
-civilian purposes,technology,1
-Glaser,Oceania,1
-Glaser,cooperation,1
-Glaser,climate,1
-Glaser,policy,2
-Oceania,cooperation,1
-Oceania,climate,1
-Oceania,policy,1
-climate,cooperation,1
-cooperation,policy,1
-climate,policy,3
-nuclear,security,1
-nuclear,technology,1
-security,technology,1
-Italy,Yashina,3
-Yashina,policy,1
-Yashina,military,1
-Yashina,technology,1
-EU,Italy,2
-Italy,policy,3
-Italy,military,1
-Italy,technology,1
-EU,policy,11
-EU,military,1
-EU,technology,1
-military,policy,2
-policy,technology,2
-military,technology,1
-Kosevich,Spain,1
-Kosevich,Latin America,2
-Kosevich,strategy,1
-Kosevich,interaction,2
-Latin America,Spain,1
-Spain,strategy,1
-Spain,interaction,1
-Latin America,strategy,1
-Latin America,interaction,3
-interaction,strategy,1
-Russia,UN,1
-Biden,US,2
-US,military,2
-US,policy,13
-Biden,military,1
-Biden,policy,2
-EU,France,4
-France,nuclear,1
-France,energy,4
-France,development,1
-France,policy,5
-EU,nuclear,1
-EU,energy,6
-EU,development,1
-energy,nuclear,1
-development,nuclear,1
-nuclear,policy,2
-development,energy,1
-energy,policy,8
-development,policy,1
-Spain,UK,1
-Catalan separatist movement,UK,1
-UK,media,1
-UK,image,1
-Catalan separatist movement,Spain,2
-Spain,media,1
-Spain,image,1
-Catalan separatist movement,media,1
-Catalan separatist movement,image,1
-image,media,2
-Batyuk,Japan,1
-Batyuk,US,3
-Batyuk,policy,1
-Batyuk,security,2
-Japan,US,1
-Japan,policy,5
-Japan,security,2
-US,security,2
-policy,security,1
-Mexico,US,4
-Mexico,influence,1
-Mexico,policy,4
-US,influence,1
-influence,policy,2
-Batyuk,Mexico,1
-Batyuk,border,1
-Batyuk,migration,1
-Batyuk,interaction,1
-US,border,2
-US,migration,1
-US,interaction,4
-Mexico,border,2
-Mexico,migration,1
-Mexico,interaction,1
-border,migration,1
-border,interaction,1
-interaction,migration,1
-EU,climate,2
-Japan,Puzyanova,3
-ASEAN,Puzyanova,1
-Puzyanova,security,1
-ASEAN,Japan,1
-ASEAN,security,1
-France,Zinovieva,1
-EU,Zinovieva,1
-Zinovieva,digital,1
-Zinovieva,diplomacy,1
-France,digital,1
-France,diplomacy,4
-EU,digital,1
-EU,diplomacy,2
-digital,diplomacy,1
-US,foreign,2
-US,discourse,1
-Mexico,foreign,1
-Mexico,discourse,1
-foreign,policy,9
-discourse,foreign,3
-border,foreign,1
-discourse,policy,4
-border,policy,2
-policy,policy,1
-border,discourse,1
-Moldova,foreign,1
-Moldova,policy,1
-Moldova,discourse,1
-Bass,Germany,4
-Bass,China,1
-Bass,policy,4
-Bass,economy,1
-Bass,political,1
-Bass,interaction,2
-China,Germany,1
-Germany,policy,8
-Germany,economy,1
-Germany,political,1
-Germany,interaction,2
-China,policy,4
-China,economy,2
-China,political,2
-China,interaction,4
-economy,policy,2
-policy,political,2
-interaction,policy,3
-economy,political,1
-economy,interaction,1
-interaction,political,1
-Batyuk,Latin America,1
-Batyuk,cooperation,1
-Latin America,US,3
-Latin America,cooperation,1
-Latin America,security,2
-cooperation,security,1
-US,Zinovieva,1
-Russia,Zinovieva,1
-Ukraine,Zinovieva,1
-Zinovieva,confrontation,1
-Zinovieva,information,1
-Ukrainian crisis,Zinovieva,1
-Zinovieva,crisis,1
-Russia,US,5
-US,Ukraine,1
-US,confrontation,1
-US,information,1
-US,Ukrainian crisis,1
-US,crisis,1
-Russia,Ukraine,3
-Russia,confrontation,2
-Russia,information,2
-Russia,Ukrainian crisis,3
-Russia,crisis,3
-Ukraine,confrontation,1
-Ukraine,information,1
-Ukraine,Ukrainian crisis,4
-Ukraine,crisis,4
-confrontation,information,2
-Ukrainian crisis,confrontation,1
-confrontation,crisis,1
-Ukrainian crisis,information,1
-crisis,information,1
-Ukrainian crisis,crisis,4
-ASEAN,China,1
-China,image,1
-ASEAN,policy,2
-ASEAN,image,1
-image,policy,1
-Central Asia,foreign,1
-Central Asia,policy,1
-France,Yashina,1
-Yashina,diplomacy,1
-Yashina,public,1
-France,Italy,1
-Italy,diplomacy,2
-Italy,public,1
-France,public,1
-diplomacy,public,3
-China,Vietnam,1
-Vietnam,interaction,1
-EU,Russia,4
-Russia,diplomacy,4
-diplomacy,energy,2
-Korneev,Spain,1
-EU,Korneev,1
-EU migration policy,Korneev,1
-Korneev,influence,1
-Korneev,policy,2
-Korneev,migration,2
-EU,Spain,2
-EU migration policy,Spain,1
-Spain,influence,1
-Spain,policy,2
-Spain,migration,1
-EU,EU migration policy,2
-EU,influence,1
-EU,migration,2
-EU migration policy,influence,1
-EU migration policy,policy,3
-EU migration policy,migration,3
-influence,migration,1
-migration,policy,4
-Russia,Yenikeev,3
-China,Yenikeev,1
-Yenikeev,cooperation,1
-Yenikeev,political,1
-Yenikeev,energy,4
-China,Russia,2
-Russia,political,2
-China,cooperation,1
-China,energy,1
-cooperation,political,1
-energy,political,1
-Lukyanov,Ukraine,1
-Lukyanov,Ukrainian crisis,1
-Lukyanov,crisis,1
-France,Germany,1
-EU,Germany,1
-Germany,energy,3
-Germany,strategy,1
-Germany,approach,2
-France,strategy,1
-France,approach,1
-EU,strategy,1
-EU,approach,2
-energy,strategy,1
-approach,energy,1
-approach,strategy,1
-Italy,Maslova,2
-EU,Maslova,1
-EU migration policy,Maslova,1
-Maslova,migration,1
-Maslova,policy,2
-Maslova,approach,1
-EU migration policy,Italy,1
-Italy,migration,1
-Italy,approach,2
-EU migration policy,approach,1
-approach,migration,1
-approach,policy,2
-ASEAN,Kanaev,2
-Kanaev,policy,1
-Russia,security,2
-EU,security,1
-energy,security,1
-Africa,UK,1
-UK,policy,1
-Africa,policy,3
-Russia,Yashina,1
-Ukraine,Yashina,1
-Yashina,image,1
-Yashina,media,1
-Ukrainian crisis,Yashina,1
-Yashina,crisis,1
-Italy,Russia,1
-Russia,image,1
-Russia,media,1
-Italy,Ukraine,1
-Italy,image,1
-Italy,media,1
-Italy,Ukrainian crisis,1
-Italy,crisis,1
-Ukraine,image,1
-Ukraine,media,1
-Ukrainian crisis,image,1
-crisis,image,1
-Ukrainian crisis,media,1
-crisis,media,1
-France,Yenikeev,2
-EU,Yenikeev,1
-Yenikeev,policy,3
-Zakharov,policy,1
-India,policy,1
-Russia,policy,9
-Russia,sanctions,3
-EU,sanctions,1
-energy,sanctions,1
-policy,sanctions,2
-Japan,Korneev,1
-Korneev,Vietnam,1
-Japan,Vietnam,2
-Japan,migration,1
-Vietnam,migration,1
-Vietnam,policy,1
-Japan,South Korea,1
-Japan,approach,1
-South Korea,Vietnam,1
-South Korea,approach,2
-Vietnam,approach,1
-Lukyanov,US,1
-Lukyanov,South Korea,1
-Lukyanov,cooperation,1
-Lukyanov,military,1
-South Korea,US,1
-South Korea,cooperation,1
-South Korea,military,1
-cooperation,military,1
-Syria,Turkey,2
-Turkey,US,2
-Turkey,policy,2
-Syria,US,2
-Syria,policy,2
-Middle East,Russia,1
-Russia,technology,1
-Middle East,technology,1
-Middle East,policy,4
-US,separatist,1
-Syria,separatist,1
-Syria,interaction,1
-Turkey,separatist,1
-Turkey,interaction,1
-policy,separatist,2
-interaction,separatist,1
-Puzyanova,policy,2
-Italy,development,1
-Italy,security,1
-development,security,1
-Moldova,Russia,1
-Moldova,information,1
-Moldova,confrontation,1
-Saudi Arabia,US,2
-Middle East,US,2
-Middle East,Saudi Arabia,4
-Saudi Arabia,foreign,1
-Saudi Arabia,policy,3
-Middle East,foreign,1
-Japan,Yenikeev,1
-Japan,Russia,1
-Japan,energy,1
-Serbia,US,1
-EU,Serbia,1
-Russia,Serbia,2
-Serbia,policy,1
-EU,US,2
-Kosevich,US,1
-Brazil,Kosevich,1
-Brazil,US,1
-Brazil,Latin America,4
-Brazil,interaction,1
-Central Asia,Russia,3
-Russia,interaction,2
-Central Asia,security,2
-Central Asia,interaction,2
-interaction,security,2
-Entina,France,1
-Africa,Entina,1
-Entina,military,1
-Africa,France,3
-France,military,1
-Africa,military,1
-France,interaction,1
-Africa,interaction,1
-Puzyanova,non-proliferation,1
-Puzyanova,nuclear,1
-Puzyanova,foreign,1
-Puzyanova,discourse,1
-Japan,non-proliferation,1
-Japan,nuclear,1
-Japan,foreign,1
-Japan,discourse,1
-non-proliferation,nuclear,2
-foreign,non-proliferation,1
-non-proliferation,policy,1
-discourse,non-proliferation,1
-foreign,nuclear,1
-discourse,nuclear,1
-Kanaev,Russia,1
-Kanaev,digital,1
-Kanaev,economy,1
-ASEAN,Russia,1
-Russia,digital,1
-Russia,economy,1
-ASEAN,digital,1
-ASEAN,economy,1
-digital,economy,1
-Mexico,Rosenthal,1
-Rosenthal,US,1
-Rosenthal,energy,2
-Rosenthal,policy,1
-Mexico,energy,1
-US,energy,1
-BRICS,Brazil,1
-Brazil,policy,2
-BRICS,Latin America,1
-BRICS,policy,1
-Latin America,policy,2
-Maslova,cultural,1
-Maslova,diplomacy,1
-Italy,cultural,1
-cultural,diplomacy,4
-cultural,policy,2
-diplomacy,policy,2
-Lukyanov,Russia,1
-Lukyanov,sport,1
-Lukyanov,policy,2
-Russia,sport,2
-policy,sport,1
-France,Russia,2
-Russia,strategy,1
-sanctions,strategy,1
-sport,strategy,1
-sanctions,sport,1
-Batyuk,UN,1
-Batyuk,regime,1
-UN,regime,1
-China,technology,1
-China,digital,1
-digital,technology,1
-Germany,Lukyanov,1
-Catalan separatist movement,EU,1
-EU,separatist,1
-Spain,separatist,1
-Catalan separatist movement,policy,1
-Catalan separatist movement,separatist,1
-Baklanov,US,1
-Baklanov,Saudi Arabia,3
-Baklanov,Middle East,3
-Baklanov,policy,2
-Brazil,China,1
-Brazil,foreign,1
-Brazil,economy,1
-China,Latin America,2
-China,foreign,1
-Latin America,foreign,1
-Latin America,economy,1
-economy,foreign,1
-Iran,US,1
-US,nuclear,1
-US,non-proliferation,1
-US,regime,1
-Iran,Russia,1
-Russia,nuclear,1
-Russia,non-proliferation,1
-Russia,regime,1
-Iran,nuclear,1
-Iran,non-proliferation,1
-Iran,regime,1
-nuclear,regime,1
-non-proliferation,regime,1
-France,Zvereva,2
-Africa,Zvereva,1
-Zvereva,policy,2
-Bass,internet,1
-Germany,internet,1
-internet,policy,1
-interaction,internet,1
-Entina,Russia,1
-Entina,Serbia,1
-Entina,Ukraine,1
-Entina,interaction,1
-Entina,Ukrainian crisis,1
-Entina,crisis,1
-Serbia,Ukraine,1
-Serbia,interaction,1
-Serbia,Ukrainian crisis,1
-Serbia,crisis,1
-Ukraine,interaction,1
-Ukrainian crisis,interaction,1
-crisis,interaction,1
-Central Asia,China,1
-EU,Entina,1
-Entina,policy,1
-Central Asia,cooperation,1
-Russia,cultural,2
-China,cultural,1
-China,diplomacy,1
-Baklanov,Iran,1
-Iran,Saudi Arabia,1
-Iran,Middle East,1
-Iran,policy,1
-Bass,EU migration policy,1
-Bass,migration,1
-EU migration policy,Germany,1
-Germany,migration,1
-UN,Zinovieva,1
-Zinovieva,internet,1
-UN,internet,1
-Central Asia,US,1
-US,public,1
-US,diplomacy,1
-Russia,public,1
-Central Asia,public,1
-Central Asia,diplomacy,1
-Spain,public,1
-Spain,diplomacy,1
-Brazil,Shcherbakova,1
-Latin America,Shcherbakova,2
-Shcherbakova,security,1
-Brazil,security,1
-Germany,Glaser,1
-Glaser,foreign,1
-Glaser,approach,1
-Germany,foreign,2
-approach,foreign,1
-US,sanctions,1
-US,political,1
-political,sanctions,1
-BRICS,Lukyanov,1
-Lukyanov,agenda,1
-BRICS,agenda,1
-Baklanov,crisis,1
-Saudi Arabia,crisis,1
-Middle East,crisis,1
-France,cultural,2
-US,climate,1
-Biden,EU,1
-Biden,climate,1
-Bass,Russia,1
-Bass,foreign,1
-Germany,Russia,1
-Russia,foreign,1
-Argentina,Shcherbakova,1
-Shcherbakova,US,1
-China,Shcherbakova,1
-Shcherbakova,interaction,1
-Argentina,US,1
-Argentina,China,1
-Argentina,Latin America,2
-Argentina,interaction,1
-China,US,1
-UN,Zvereva,1
-Zvereva,agenda,1
-France,UN,1
-France,agenda,1
-UN,agenda,1
-UN,policy,1
-agenda,policy,1
-Argentina,Rosenthal,1
-Latin America,Rosenthal,1
-Rosenthal,diplomacy,1
-Argentina,diplomacy,1
-Argentina,energy,1
-Latin America,diplomacy,1
-Latin America,energy,1
+source,target,weight,type
+China,Oceania,1,Undirected
+Oceania,security,1,Undirected
+Oceania,military,1,Undirected
+China,security,2,Undirected
+China,military,1,Undirected
+military,security,1,Undirected
+EU,Yashina,2,Undirected
+Yashina,civilian purposes,1,Undirected
+EU,civilian purposes,1,Undirected
+Russia,Zakharov,1,Undirected
+India,Zakharov,3,Undirected
+Zakharov,cooperation,2,Undirected
+Zakharov,energy,1,Undirected
+India,Russia,1,Undirected
+Russia,cooperation,3,Undirected
+Russia,energy,7,Undirected
+India,cooperation,2,Undirected
+India,energy,1,Undirected
+cooperation,energy,2,Undirected
+US,Zakharov,1,Undirected
+Zakharov,technology,1,Undirected
+Zakharov,civilian purposes,1,Undirected
+India,US,1,Undirected
+India,technology,1,Undirected
+India,civilian purposes,1,Undirected
+US,cooperation,3,Undirected
+US,technology,1,Undirected
+US,civilian purposes,1,Undirected
+cooperation,technology,1,Undirected
+civilian purposes,cooperation,1,Undirected
+civilian purposes,technology,1,Undirected
+Glaser,Oceania,1,Undirected
+Glaser,cooperation,1,Undirected
+Glaser,climate,1,Undirected
+Glaser,policy,2,Undirected
+Oceania,cooperation,1,Undirected
+Oceania,climate,1,Undirected
+Oceania,policy,1,Undirected
+climate,cooperation,1,Undirected
+cooperation,policy,1,Undirected
+climate,policy,3,Undirected
+nuclear,security,1,Undirected
+nuclear,technology,1,Undirected
+security,technology,1,Undirected
+Italy,Yashina,3,Undirected
+Yashina,policy,1,Undirected
+Yashina,military,1,Undirected
+Yashina,technology,1,Undirected
+EU,Italy,2,Undirected
+Italy,policy,3,Undirected
+Italy,military,1,Undirected
+Italy,technology,1,Undirected
+EU,policy,11,Undirected
+EU,military,1,Undirected
+EU,technology,1,Undirected
+military,policy,2,Undirected
+policy,technology,2,Undirected
+military,technology,1,Undirected
+Kosevich,Spain,1,Undirected
+Kosevich,Latin America,2,Undirected
+Kosevich,strategy,1,Undirected
+Kosevich,interaction,2,Undirected
+Latin America,Spain,1,Undirected
+Spain,strategy,1,Undirected
+Spain,interaction,1,Undirected
+Latin America,strategy,1,Undirected
+Latin America,interaction,3,Undirected
+interaction,strategy,1,Undirected
+Russia,UN,1,Undirected
+Biden,US,2,Undirected
+US,military,2,Undirected
+US,policy,13,Undirected
+Biden,military,1,Undirected
+Biden,policy,2,Undirected
+EU,France,4,Undirected
+France,nuclear,1,Undirected
+France,energy,4,Undirected
+France,development,1,Undirected
+France,policy,5,Undirected
+EU,nuclear,1,Undirected
+EU,energy,6,Undirected
+EU,development,1,Undirected
+energy,nuclear,1,Undirected
+development,nuclear,1,Undirected
+nuclear,policy,2,Undirected
+development,energy,1,Undirected
+energy,policy,8,Undirected
+development,policy,1,Undirected
+Spain,UK,1,Undirected
+Catalan separatist movement,UK,1,Undirected
+UK,media,1,Undirected
+UK,image,1,Undirected
+Catalan separatist movement,Spain,2,Undirected
+Spain,media,1,Undirected
+Spain,image,1,Undirected
+Catalan separatist movement,media,1,Undirected
+Catalan separatist movement,image,1,Undirected
+image,media,2,Undirected
+Batyuk,Japan,1,Undirected
+Batyuk,US,3,Undirected
+Batyuk,policy,1,Undirected
+Batyuk,security,2,Undirected
+Japan,US,1,Undirected
+Japan,policy,5,Undirected
+Japan,security,2,Undirected
+US,security,2,Undirected
+policy,security,1,Undirected
+Mexico,US,4,Undirected
+Mexico,influence,1,Undirected
+Mexico,policy,4,Undirected
+US,influence,1,Undirected
+influence,policy,2,Undirected
+Batyuk,Mexico,1,Undirected
+Batyuk,border,1,Undirected
+Batyuk,migration,1,Undirected
+Batyuk,interaction,1,Undirected
+US,border,2,Undirected
+US,migration,1,Undirected
+US,interaction,4,Undirected
+Mexico,border,2,Undirected
+Mexico,migration,1,Undirected
+Mexico,interaction,1,Undirected
+border,migration,1,Undirected
+border,interaction,1,Undirected
+interaction,migration,1,Undirected
+EU,climate,2,Undirected
+Japan,Puzyanova,3,Undirected
+ASEAN,Puzyanova,1,Undirected
+Puzyanova,security,1,Undirected
+ASEAN,Japan,1,Undirected
+ASEAN,security,1,Undirected
+France,Zinovieva,1,Undirected
+EU,Zinovieva,1,Undirected
+Zinovieva,digital,1,Undirected
+Zinovieva,diplomacy,1,Undirected
+France,digital,1,Undirected
+France,diplomacy,4,Undirected
+EU,digital,1,Undirected
+EU,diplomacy,2,Undirected
+digital,diplomacy,1,Undirected
+US,foreign,2,Undirected
+US,discourse,1,Undirected
+Mexico,foreign,1,Undirected
+Mexico,discourse,1,Undirected
+foreign,policy,9,Undirected
+discourse,foreign,3,Undirected
+border,foreign,1,Undirected
+discourse,policy,4,Undirected
+border,policy,2,Undirected
+policy,policy,1,Undirected
+border,discourse,1,Undirected
+Moldova,foreign,1,Undirected
+Moldova,policy,1,Undirected
+Moldova,discourse,1,Undirected
+Bass,Germany,4,Undirected
+Bass,China,1,Undirected
+Bass,policy,4,Undirected
+Bass,economy,1,Undirected
+Bass,political,1,Undirected
+Bass,interaction,2,Undirected
+China,Germany,1,Undirected
+Germany,policy,8,Undirected
+Germany,economy,1,Undirected
+Germany,political,1,Undirected
+Germany,interaction,2,Undirected
+China,policy,4,Undirected
+China,economy,2,Undirected
+China,political,2,Undirected
+China,interaction,4,Undirected
+economy,policy,2,Undirected
+policy,political,2,Undirected
+interaction,policy,3,Undirected
+economy,political,1,Undirected
+economy,interaction,1,Undirected
+interaction,political,1,Undirected
+Batyuk,Latin America,1,Undirected
+Batyuk,cooperation,1,Undirected
+Latin America,US,3,Undirected
+Latin America,cooperation,1,Undirected
+Latin America,security,2,Undirected
+cooperation,security,1,Undirected
+US,Zinovieva,1,Undirected
+Russia,Zinovieva,1,Undirected
+Ukraine,Zinovieva,1,Undirected
+Zinovieva,confrontation,1,Undirected
+Zinovieva,information,1,Undirected
+Ukrainian crisis,Zinovieva,1,Undirected
+Zinovieva,crisis,1,Undirected
+Russia,US,5,Undirected
+US,Ukraine,1,Undirected
+US,confrontation,1,Undirected
+US,information,1,Undirected
+US,Ukrainian crisis,1,Undirected
+US,crisis,1,Undirected
+Russia,Ukraine,3,Undirected
+Russia,confrontation,2,Undirected
+Russia,information,2,Undirected
+Russia,Ukrainian crisis,3,Undirected
+Russia,crisis,3,Undirected
+Ukraine,confrontation,1,Undirected
+Ukraine,information,1,Undirected
+Ukraine,Ukrainian crisis,4,Undirected
+Ukraine,crisis,4,Undirected
+confrontation,information,2,Undirected
+Ukrainian crisis,confrontation,1,Undirected
+confrontation,crisis,1,Undirected
+Ukrainian crisis,information,1,Undirected
+crisis,information,1,Undirected
+Ukrainian crisis,crisis,4,Undirected
+ASEAN,China,1,Undirected
+China,image,1,Undirected
+ASEAN,policy,2,Undirected
+ASEAN,image,1,Undirected
+image,policy,1,Undirected
+Central Asia,foreign,1,Undirected
+Central Asia,policy,1,Undirected
+France,Yashina,1,Undirected
+Yashina,diplomacy,1,Undirected
+Yashina,public,1,Undirected
+France,Italy,1,Undirected
+Italy,diplomacy,2,Undirected
+Italy,public,1,Undirected
+France,public,1,Undirected
+diplomacy,public,3,Undirected
+China,Vietnam,1,Undirected
+Vietnam,interaction,1,Undirected
+EU,Russia,4,Undirected
+Russia,diplomacy,4,Undirected
+diplomacy,energy,2,Undirected
+Korneev,Spain,1,Undirected
+EU,Korneev,1,Undirected
+EU migration policy,Korneev,1,Undirected
+Korneev,influence,1,Undirected
+Korneev,policy,2,Undirected
+Korneev,migration,2,Undirected
+EU,Spain,2,Undirected
+EU migration policy,Spain,1,Undirected
+Spain,influence,1,Undirected
+Spain,policy,2,Undirected
+Spain,migration,1,Undirected
+EU,EU migration policy,2,Undirected
+EU,influence,1,Undirected
+EU,migration,2,Undirected
+EU migration policy,influence,1,Undirected
+EU migration policy,policy,3,Undirected
+EU migration policy,migration,3,Undirected
+influence,migration,1,Undirected
+migration,policy,4,Undirected
+Russia,Yenikeev,3,Undirected
+China,Yenikeev,1,Undirected
+Yenikeev,cooperation,1,Undirected
+Yenikeev,political,1,Undirected
+Yenikeev,energy,4,Undirected
+China,Russia,2,Undirected
+Russia,political,2,Undirected
+China,cooperation,1,Undirected
+China,energy,1,Undirected
+cooperation,political,1,Undirected
+energy,political,1,Undirected
+Lukyanov,Ukraine,1,Undirected
+Lukyanov,Ukrainian crisis,1,Undirected
+Lukyanov,crisis,1,Undirected
+France,Germany,1,Undirected
+EU,Germany,1,Undirected
+Germany,energy,3,Undirected
+Germany,strategy,1,Undirected
+Germany,approach,2,Undirected
+France,strategy,1,Undirected
+France,approach,1,Undirected
+EU,strategy,1,Undirected
+EU,approach,2,Undirected
+energy,strategy,1,Undirected
+approach,energy,1,Undirected
+approach,strategy,1,Undirected
+Italy,Maslova,2,Undirected
+EU,Maslova,1,Undirected
+EU migration policy,Maslova,1,Undirected
+Maslova,migration,1,Undirected
+Maslova,policy,2,Undirected
+Maslova,approach,1,Undirected
+EU migration policy,Italy,1,Undirected
+Italy,migration,1,Undirected
+Italy,approach,2,Undirected
+EU migration policy,approach,1,Undirected
+approach,migration,1,Undirected
+approach,policy,2,Undirected
+ASEAN,Kanaev,2,Undirected
+Kanaev,policy,1,Undirected
+Russia,security,2,Undirected
+EU,security,1,Undirected
+energy,security,1,Undirected
+Africa,UK,1,Undirected
+UK,policy,1,Undirected
+Africa,policy,3,Undirected
+Russia,Yashina,1,Undirected
+Ukraine,Yashina,1,Undirected
+Yashina,image,1,Undirected
+Yashina,media,1,Undirected
+Ukrainian crisis,Yashina,1,Undirected
+Yashina,crisis,1,Undirected
+Italy,Russia,1,Undirected
+Russia,image,1,Undirected
+Russia,media,1,Undirected
+Italy,Ukraine,1,Undirected
+Italy,image,1,Undirected
+Italy,media,1,Undirected
+Italy,Ukrainian crisis,1,Undirected
+Italy,crisis,1,Undirected
+Ukraine,image,1,Undirected
+Ukraine,media,1,Undirected
+Ukrainian crisis,image,1,Undirected
+crisis,image,1,Undirected
+Ukrainian crisis,media,1,Undirected
+crisis,media,1,Undirected
+France,Yenikeev,2,Undirected
+EU,Yenikeev,1,Undirected
+Yenikeev,policy,3,Undirected
+Zakharov,policy,1,Undirected
+India,policy,1,Undirected
+Russia,policy,9,Undirected
+Russia,sanctions,3,Undirected
+EU,sanctions,1,Undirected
+energy,sanctions,1,Undirected
+policy,sanctions,2,Undirected
+Japan,Korneev,1,Undirected
+Korneev,Vietnam,1,Undirected
+Japan,Vietnam,2,Undirected
+Japan,migration,1,Undirected
+Vietnam,migration,1,Undirected
+Vietnam,policy,1,Undirected
+Japan,South Korea,1,Undirected
+Japan,approach,1,Undirected
+South Korea,Vietnam,1,Undirected
+South Korea,approach,2,Undirected
+Vietnam,approach,1,Undirected
+Lukyanov,US,1,Undirected
+Lukyanov,South Korea,1,Undirected
+Lukyanov,cooperation,1,Undirected
+Lukyanov,military,1,Undirected
+South Korea,US,1,Undirected
+South Korea,cooperation,1,Undirected
+South Korea,military,1,Undirected
+cooperation,military,1,Undirected
+Syria,Turkey,2,Undirected
+Turkey,US,2,Undirected
+Turkey,policy,2,Undirected
+Syria,US,2,Undirected
+Syria,policy,2,Undirected
+Middle East,Russia,1,Undirected
+Russia,technology,1,Undirected
+Middle East,technology,1,Undirected
+Middle East,policy,4,Undirected
+US,separatist,1,Undirected
+Syria,separatist,1,Undirected
+Syria,interaction,1,Undirected
+Turkey,separatist,1,Undirected
+Turkey,interaction,1,Undirected
+policy,separatist,2,Undirected
+interaction,separatist,1,Undirected
+Puzyanova,policy,2,Undirected
+Italy,development,1,Undirected
+Italy,security,1,Undirected
+development,security,1,Undirected
+Moldova,Russia,1,Undirected
+Moldova,information,1,Undirected
+Moldova,confrontation,1,Undirected
+Saudi Arabia,US,2,Undirected
+Middle East,US,2,Undirected
+Middle East,Saudi Arabia,4,Undirected
+Saudi Arabia,foreign,1,Undirected
+Saudi Arabia,policy,3,Undirected
+Middle East,foreign,1,Undirected
+Japan,Yenikeev,1,Undirected
+Japan,Russia,1,Undirected
+Japan,energy,1,Undirected
+Serbia,US,1,Undirected
+EU,Serbia,1,Undirected
+Russia,Serbia,2,Undirected
+Serbia,policy,1,Undirected
+EU,US,2,Undirected
+Kosevich,US,1,Undirected
+Brazil,Kosevich,1,Undirected
+Brazil,US,1,Undirected
+Brazil,Latin America,4,Undirected
+Brazil,interaction,1,Undirected
+Central Asia,Russia,3,Undirected
+Russia,interaction,2,Undirected
+Central Asia,security,2,Undirected
+Central Asia,interaction,2,Undirected
+interaction,security,2,Undirected
+Entina,France,1,Undirected
+Africa,Entina,1,Undirected
+Entina,military,1,Undirected
+Africa,France,3,Undirected
+France,military,1,Undirected
+Africa,military,1,Undirected
+France,interaction,1,Undirected
+Africa,interaction,1,Undirected
+Puzyanova,non-proliferation,1,Undirected
+Puzyanova,nuclear,1,Undirected
+Puzyanova,foreign,1,Undirected
+Puzyanova,discourse,1,Undirected
+Japan,non-proliferation,1,Undirected
+Japan,nuclear,1,Undirected
+Japan,foreign,1,Undirected
+Japan,discourse,1,Undirected
+non-proliferation,nuclear,2,Undirected
+foreign,non-proliferation,1,Undirected
+non-proliferation,policy,1,Undirected
+discourse,non-proliferation,1,Undirected
+foreign,nuclear,1,Undirected
+discourse,nuclear,1,Undirected
+Kanaev,Russia,1,Undirected
+Kanaev,digital,1,Undirected
+Kanaev,economy,1,Undirected
+ASEAN,Russia,1,Undirected
+Russia,digital,1,Undirected
+Russia,economy,1,Undirected
+ASEAN,digital,1,Undirected
+ASEAN,economy,1,Undirected
+digital,economy,1,Undirected
+Mexico,Rosenthal,1,Undirected
+Rosenthal,US,1,Undirected
+Rosenthal,energy,2,Undirected
+Rosenthal,policy,1,Undirected
+Mexico,energy,1,Undirected
+US,energy,1,Undirected
+BRICS,Brazil,1,Undirected
+Brazil,policy,2,Undirected
+BRICS,Latin America,1,Undirected
+BRICS,policy,1,Undirected
+Latin America,policy,2,Undirected
+Maslova,cultural,1,Undirected
+Maslova,diplomacy,1,Undirected
+Italy,cultural,1,Undirected
+cultural,diplomacy,4,Undirected
+cultural,policy,2,Undirected
+diplomacy,policy,2,Undirected
+Lukyanov,Russia,1,Undirected
+Lukyanov,sport,1,Undirected
+Lukyanov,policy,2,Undirected
+Russia,sport,2,Undirected
+policy,sport,1,Undirected
+France,Russia,2,Undirected
+Russia,strategy,1,Undirected
+sanctions,strategy,1,Undirected
+sport,strategy,1,Undirected
+sanctions,sport,1,Undirected
+Batyuk,UN,1,Undirected
+Batyuk,regime,1,Undirected
+UN,regime,1,Undirected
+China,technology,1,Undirected
+China,digital,1,Undirected
+digital,technology,1,Undirected
+Germany,Lukyanov,1,Undirected
+Catalan separatist movement,EU,1,Undirected
+EU,separatist,1,Undirected
+Spain,separatist,1,Undirected
+Catalan separatist movement,policy,1,Undirected
+Catalan separatist movement,separatist,1,Undirected
+Baklanov,US,1,Undirected
+Baklanov,Saudi Arabia,3,Undirected
+Baklanov,Middle East,3,Undirected
+Baklanov,policy,2,Undirected
+Brazil,China,1,Undirected
+Brazil,foreign,1,Undirected
+Brazil,economy,1,Undirected
+China,Latin America,2,Undirected
+China,foreign,1,Undirected
+Latin America,foreign,1,Undirected
+Latin America,economy,1,Undirected
+economy,foreign,1,Undirected
+Iran,US,1,Undirected
+US,nuclear,1,Undirected
+US,non-proliferation,1,Undirected
+US,regime,1,Undirected
+Iran,Russia,1,Undirected
+Russia,nuclear,1,Undirected
+Russia,non-proliferation,1,Undirected
+Russia,regime,1,Undirected
+Iran,nuclear,1,Undirected
+Iran,non-proliferation,1,Undirected
+Iran,regime,1,Undirected
+nuclear,regime,1,Undirected
+non-proliferation,regime,1,Undirected
+France,Zvereva,2,Undirected
+Africa,Zvereva,1,Undirected
+Zvereva,policy,2,Undirected
+Bass,internet,1,Undirected
+Germany,internet,1,Undirected
+internet,policy,1,Undirected
+interaction,internet,1,Undirected
+Entina,Russia,1,Undirected
+Entina,Serbia,1,Undirected
+Entina,Ukraine,1,Undirected
+Entina,interaction,1,Undirected
+Entina,Ukrainian crisis,1,Undirected
+Entina,crisis,1,Undirected
+Serbia,Ukraine,1,Undirected
+Serbia,interaction,1,Undirected
+Serbia,Ukrainian crisis,1,Undirected
+Serbia,crisis,1,Undirected
+Ukraine,interaction,1,Undirected
+Ukrainian crisis,interaction,1,Undirected
+crisis,interaction,1,Undirected
+Central Asia,China,1,Undirected
+EU,Entina,1,Undirected
+Entina,policy,1,Undirected
+Central Asia,cooperation,1,Undirected
+Russia,cultural,2,Undirected
+China,cultural,1,Undirected
+China,diplomacy,1,Undirected
+Baklanov,Iran,1,Undirected
+Iran,Saudi Arabia,1,Undirected
+Iran,Middle East,1,Undirected
+Iran,policy,1,Undirected
+Bass,EU migration policy,1,Undirected
+Bass,migration,1,Undirected
+EU migration policy,Germany,1,Undirected
+Germany,migration,1,Undirected
+UN,Zinovieva,1,Undirected
+Zinovieva,internet,1,Undirected
+UN,internet,1,Undirected
+Central Asia,US,1,Undirected
+US,public,1,Undirected
+US,diplomacy,1,Undirected
+Russia,public,1,Undirected
+Central Asia,public,1,Undirected
+Central Asia,diplomacy,1,Undirected
+Spain,public,1,Undirected
+Spain,diplomacy,1,Undirected
+Brazil,Shcherbakova,1,Undirected
+Latin America,Shcherbakova,2,Undirected
+Shcherbakova,security,1,Undirected
+Brazil,security,1,Undirected
+Germany,Glaser,1,Undirected
+Glaser,foreign,1,Undirected
+Glaser,approach,1,Undirected
+Germany,foreign,2,Undirected
+approach,foreign,1,Undirected
+US,sanctions,1,Undirected
+US,political,1,Undirected
+political,sanctions,1,Undirected
+BRICS,Lukyanov,1,Undirected
+Lukyanov,agenda,1,Undirected
+BRICS,agenda,1,Undirected
+Baklanov,crisis,1,Undirected
+Saudi Arabia,crisis,1,Undirected
+Middle East,crisis,1,Undirected
+France,cultural,2,Undirected
+US,climate,1,Undirected
+Biden,EU,1,Undirected
+Biden,climate,1,Undirected
+Bass,Russia,1,Undirected
+Bass,foreign,1,Undirected
+Germany,Russia,1,Undirected
+Russia,foreign,1,Undirected
+Argentina,Shcherbakova,1,Undirected
+Shcherbakova,US,1,Undirected
+China,Shcherbakova,1,Undirected
+Shcherbakova,interaction,1,Undirected
+Argentina,US,1,Undirected
+Argentina,China,1,Undirected
+Argentina,Latin America,2,Undirected
+Argentina,interaction,1,Undirected
+China,US,1,Undirected
+UN,Zvereva,1,Undirected
+Zvereva,agenda,1,Undirected
+France,UN,1,Undirected
+France,agenda,1,Undirected
+UN,agenda,1,Undirected
+UN,policy,1,Undirected
+agenda,policy,1,Undirected
+Argentina,Rosenthal,1,Undirected
+Latin America,Rosenthal,1,Undirected
+Rosenthal,diplomacy,1,Undirected
+Argentina,diplomacy,1,Undirected
+Argentina,energy,1,Undirected
+Latin America,diplomacy,1,Undirected
+Latin America,energy,1,Undirected

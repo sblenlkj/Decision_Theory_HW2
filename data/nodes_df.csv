@@ -1,1 +1,90 @@
-Source,Target,Type,Id,Label,Weight
+label,weight,category,id
+Baklanov,3,tutors,Baklanov
+Bass,4,tutors,Bass
+Batyuk,4,tutors,Batyuk
+Entina,3,tutors,Entina
+Glaser,2,tutors,Glaser
+Kanaev,2,tutors,Kanaev
+Korneev,2,tutors,Korneev
+Kosevich,2,tutors,Kosevich
+Lukyanov,5,tutors,Lukyanov
+Maslova,2,tutors,Maslova
+Puzyanova,3,tutors,Puzyanova
+Rosenthal,2,tutors,Rosenthal
+Shcherbakova,2,tutors,Shcherbakova
+Yashina,4,tutors,Yashina
+Yenikeev,4,tutors,Yenikeev
+Zakharov,3,tutors,Zakharov
+Zinovieva,3,tutors,Zinovieva
+Zvereva,2,tutors,Zvereva
+ASEAN,4,countries,ASEAN
+Africa,5,countries,Africa
+Argentina,2,countries,Argentina
+BRICS,2,countries,BRICS
+Brazil,4,countries,Brazil
+Central Asia,5,countries,Central Asia
+China,10,countries,China
+EU,16,countries,EU
+France,12,countries,France
+Germany,9,countries,Germany
+India,3,countries,India
+Iran,2,countries,Iran
+Italy,7,countries,Italy
+Japan,7,countries,Japan
+Latin America,8,countries,Latin America
+Mexico,4,countries,Mexico
+Middle East,5,countries,Middle East
+Moldova,2,countries,Moldova
+Oceania,2,countries,Oceania
+Russia,25,countries,Russia
+Saudi Arabia,4,countries,Saudi Arabia
+Serbia,2,countries,Serbia
+South Korea,3,countries,South Korea
+Spain,5,countries,Spain
+Syria,2,countries,Syria
+Turkey,2,countries,Turkey
+UK,2,countries,UK
+UN,4,countries,UN
+US,21,countries,US
+Ukraine,4,countries,Ukraine
+Vietnam,3,countries,Vietnam
+Biden,2,topics,Biden
+Catalan separatist movement,2,topics,Catalan separatist movement
+EU migration policy,3,topics,EU migration policy
+Ukrainian crisis,4,topics,Ukrainian crisis
+agenda,2,topics,agenda
+approach,6,topics,approach
+border,2,topics,border
+civilian purposes,2,topics,civilian purposes
+climate,3,topics,climate
+confrontation,2,topics,confrontation
+cooperation,7,topics,cooperation
+crisis,5,topics,crisis
+cultural,4,topics,cultural
+development,2,topics,development
+digital,3,topics,digital
+diplomacy,10,topics,diplomacy
+discourse,3,topics,discourse
+economy,3,topics,economy
+energy,14,topics,energy
+foreign,8,topics,foreign
+image,3,topics,image
+influence,2,topics,influence
+information,2,topics,information
+interaction,12,topics,interaction
+internet,2,topics,internet
+media,2,topics,media
+migration,5,topics,migration
+military,5,topics,military
+non-proliferation,2,topics,non-proliferation
+nuclear,5,topics,nuclear
+policy,52,topics,policy
+political,3,topics,political
+public,3,topics,public
+regime,2,topics,regime
+sanctions,3,topics,sanctions
+security,10,topics,security
+separatist,2,topics,separatist
+sport,2,topics,sport
+strategy,3,topics,strategy
+technology,5,topics,technology
