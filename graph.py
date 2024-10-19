@@ -163,7 +163,7 @@ class MyGraph:
         final_df = self.nodes_df
         lst1, lst2 = [], []
         for (f, name) in lst:
-            result_column_name, place_column_name = f"{name}_result", f"{name}_place"
+            result_column_name, place_column_name = f"{name}_result", f"{name}_p"
             lst1.append(result_column_name)
             lst2.append(place_column_name)
 
