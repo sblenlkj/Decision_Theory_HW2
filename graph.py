@@ -112,6 +112,10 @@ class MyGraph:
         return nodes_df, connections_df
     
     def save_dfs(self):
+        node_df_to_save, connections_df = self.nodes_df.copy(), self.connections_df.copy()
+
+        node_df_to_save.res 
+
         self.nodes_df.to_csv(f"{self.folder_path}/nodes_df.csv", index=False)
         self.connections_df.to_csv(f"{self.folder_path}/connections_df.csv", index=False)
     
